@@ -8,4 +8,4 @@ Chào các bạn mình là **Sơn** hôm trước mình được một bạn xin
 Vấn đề định tuyến, điều phối xe điện với thời gian sạc và thời gian di chuyển thay đổi được phát triển để giải quyết một số vấn đề vận hành
 xe điện chẳng hạn như giới hạn phạm vi và nhu cầu sạc của xe điện.
 
-Cách giải quyết bài toán là sử dụng giải thuật di chuyền để tìm được các tuyến đường tối ưu.
+Cách giải quyết bài toán là sử dụng giải thuật di chuyền để tìm được các tuyến đường tối ưu, thời gian rời khỏi xe, kế hoạch tính phí.
