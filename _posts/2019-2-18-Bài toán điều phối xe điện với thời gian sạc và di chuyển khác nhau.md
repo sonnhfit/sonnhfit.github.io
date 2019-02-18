@@ -3,6 +3,9 @@ layout: post
 title: Bài toán điều phối xe điện với thời gian sạc và di chuyển khác nhau
 ---
 
-Chào các bạn mình là Sơn hôm trước mình được một bạn xinh gái nhờ nghiên cứu bài toán điều phối xe điện cho đồ án tốt nghiệp của bạn ấy. Do tính dại gái của mình nổi lên và mình đã nhận lời nghiên cứu bài toán này. Đó là lý do bài viêt này ra đời.
+Chào các bạn mình là **Sơn** hôm trước mình được một bạn xinh gái nhờ nghiên cứu bài toán điều phối xe điện cho đồ án tốt nghiệp của bạn ấy. Do tính dại gái của mình nổi lên và mình đã nhận lời nghiên cứu bài toán này. Đó là lý do bài viêt này ra đời.
 
-Thuật toán điều phối xe điện ra đời
+Vấn đề định tuyến, điều phối xe điện với thời gian sạc và thời gian di chuyển thay đổi được phát triển để giải quyết một số vấn đề vận hành
+xe điện chẳng hạn như giới hạn phạm vi và nhu cầu sạc của xe điện.
+
+Cách giải quyết bài toán là sử dụng giải thuật di chuyền để tìm được các tuyến đường tối ưu.
