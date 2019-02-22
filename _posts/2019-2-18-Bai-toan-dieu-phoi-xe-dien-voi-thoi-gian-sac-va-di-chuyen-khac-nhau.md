@@ -26,4 +26,6 @@ kế hoạch tính phí là để giải quyết vấn đề như thế nào và
 
 Để ngụ ý sơ đồ vận hành xe tối ưu, chúng tôi hiển thị một ví dụ kết quả đơn giản với 10 khách hàng và 8 lần sạc các trạm (tham khảo Hình 1). Kết quả chi tiết là sau: depot-1-9-C2-6-depot (tuyến 1), depot-5-4-7-8-C5-kho (tuyến 2) và kho-2-3-10-kho (tuyến 3)
 
+A link to [Jekyll Now](http://github.com/barryclark/jekyll-now/). A big ass literal link <http://github.com/barryclark/jekyll-now/>
+
 ![Mô tả bài toán tối ưu điều phối xe điện với thời gian khác nhau]({{ site.baseurl }}/images/hinh1_toi-uu.PNG "Mô tả bài toán tối ưu điều phối xe điện với thời gian khác nhau")
