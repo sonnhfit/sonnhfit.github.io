@@ -55,4 +55,5 @@ ví dụ: có nhiều khoảng thời gian $$ T_i  $$  trong đó  $$ i = 1
 Một chiếc xe rời khỏi nút bắt đầu của liên kết $$ a $$ tại thời điểm $$ T_k $$ và di chuyển với tốc độ $$ V_a^{T_k} $$ Cho đến khi xe đến tại nút nằm ở ranh giới $$ T_k $$ và $$ T_{k + 1}$$. Xe đi với tốc độ $$ V_a^{ T_{ k+1 } } $$ cho đến khi xe đến node nằm ở danh giới $$ T_{ k+1 } $$ và $$ T_{k+2} $$. Cuối cùng, chiếc xe đến nút cuối của liên kết $$ a $$ tại khoảng thời gian $$ T_m $$.
 Hình 3 cho thấy khoảng cách di chuyển và thời gian di chuyển của
 xe đi qua link a. Dựa trên quy trình, thời gian di chuyển từ nút $$ i $$ đến nút $$ j $$ là:
-$$ t_ij = \sum_{ a\in{L_ij} } \sum_{i=k}^n $$
+
+$$ t_ij = \sum_{ a\in{L_ij} } \sum_{i=k}^n \frac{l_a^{T_i}}{v_a^{T_i}} $$, $$ \sum_{i=k}^n l^{T_i}_a = l_a $$,
