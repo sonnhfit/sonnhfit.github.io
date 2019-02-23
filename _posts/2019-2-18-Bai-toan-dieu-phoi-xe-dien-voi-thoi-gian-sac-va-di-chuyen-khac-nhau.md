@@ -86,6 +86,40 @@ Duyệt từng Node v trong Graph
 }
 
 dist[source] = 0
-$$ u_0 = source $$
+u0 = source
+
+Trong khi Q chưa rỗng
+{
+    u = node in Q với điều kiện min dist[u]
+    xóa u khỏi Q
+    Nếu prev[u] is defined
+    {
+        u = prev[u]
+        cost(u0, u) = kết quả của biểu thức (1) với T0
+        time[u] = time[u0] + cost(u0, u)
+
+    }
+    Duyệt từng hàng xóm v của u
+    {
+        cost(u, v) = kết quả của biểu thức (1) với time[u]
+        alt = dist[u] + cost(u, v)
+        Nếu (alt < dist[v]>)
+        {
+            dist[v] = alt
+            prev[v] = u
+            time[v] = time[v] + cost(u, v)
+        }
+    }
+}
+return dist[], prev[]
+S = ""
+u = đích
+while prev[u] is defined:
+{
+    Chèn u vào đầu của S
+    u = prev[u]
+}
+
+Chèn u vào đầu của S
 
 ```
