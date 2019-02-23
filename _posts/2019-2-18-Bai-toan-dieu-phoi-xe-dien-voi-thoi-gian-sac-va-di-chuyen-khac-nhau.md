@@ -41,3 +41,10 @@ Cấp 1 phù hợp để qua đêm tại nhà và nơi làm việc. Cấp 2 thư
 tại các cơ sở tư nhân và công cộng. Cấp 3, cũng được gọi là để sạc nhanh, sạc điện áp cao.     
 
 Hiện nay, phần lớn các trạm sạc công cộng ở Bắc Kinh cung cấp sạc nhanh, có thể nhanh chóng hoàn thành quá trình sạc trong 1 h. Năng lượng pin được sạc lại thực sự không được xem xét; đó là, bất kể năng lượng pin Khi EV đến trạm sạc, sạc thời gian được coi là một giá trị không đổi (giả sử 30 phút). Khi nào sạc lại được thực hiện, pin được làm đầy với công suất. Ngoài ra, hàng đợi không được xem xét; đó là, EVs là chắc chắn sạc lại bất cứ khi nào có thể.
+
+Môi trường giao thông năng động. Các điều kiện giao thông phức tạp có thể mất nhiều thời gian đi lại hơn do đó gây trở ngại cho khách hàng phục vụ kịp thời và khả năng tiếp cận phương tiện. Việc triển khai, chẳng hạn như biến động về thời gian di chuyển, là một phương pháp hiệu quả để phản ánh môi trường giao thông năng động trong mạng lưới đường bộ thực sự. Do đó, thời gian di chuyển thay đổi được giới thiệu để khôi phục môi trường lái xe thực sự của EVs. Tính toán hiệu quả và toàn diện về thời gian đi du lịch là rất đáng kể.
+
+![ tốc độ di chuyển thay đổi]({{ site.baseurl }}/images/hinh2.png "3 tốc độ di chuyển thay đổi")
+
+Tính toán thời gian di chuyển được đề xuất bởi Ichoua 2003 [25], trong đó việc điều chỉnh tốc độ di chuyển được xem xét và thuộc tính FIFO được chứng nhận được áp dụng trong bài viết này. Một ngày được chia thành nhiều khoảng thời gian. Tốc độ di chuyển không được giả định là không đổi và thay đổi khi một chiếc xe vượt qua ranh giới giữa hai khoảng thời gian liên tiếp. Thời gian tăng tốc hoặc thời gian giảm tốc được xác định bởi hai tốc độ di chuyển khác nhau trong đường biên là ngắn và nên
+bị coi thường. Nói cách khác, tốc độ di chuyển thay đổi được coi là một chức năng bước (tham khảo Hình 2). Thời gian di chuyển là tổng thời gian di chuyển và tốc độ giao thông khác nhau.
