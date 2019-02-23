@@ -36,6 +36,7 @@ Ngoài ra, một thuật toán Dijkstra động được giới thiệu trong M�
 EVs có nguồn pin đầy đủ. Tuy nhiên, đôi khi những chuyến đi quá dài để EV không có đủ pin hoàn thành toàn bộ chuyến đi đó. trạm sạc công cộng cung cấp sự lựa chọn tốt hơn chạy EV để bổ sung năng lượng pin. Theo Hiệp hội kỹ sư ô tô (SAE), ba cấp độ sạc
 tồn tại, như được liệt kê trong Bảng 1. 
 ![ 3 Cấp độ sạc xe điện]({{ site.baseurl }}/images/distra_bang_lv.png "3 Cấp độ sạc xe điện")
+
 Cấp 1 phù hợp để qua đêm tại nhà và nơi làm việc. Cấp 2 thường được cài đặt
 tại các cơ sở tư nhân và công cộng. Cấp 3, cũng được gọi là để sạc nhanh, sạc điện áp cao.     
 
