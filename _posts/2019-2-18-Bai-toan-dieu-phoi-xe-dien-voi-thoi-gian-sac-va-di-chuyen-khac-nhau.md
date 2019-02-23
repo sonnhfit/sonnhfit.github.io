@@ -50,4 +50,4 @@ Môi trường giao thông năng động. Các điều kiện giao thông phức
 Tính toán thời gian di chuyển được đề xuất bởi Ichoua 2003 [25], trong đó việc điều chỉnh tốc độ di chuyển được xem xét và thuộc tính FIFO được chứng nhận được áp dụng trong bài viết này. Một ngày được chia thành nhiều khoảng thời gian. Tốc độ di chuyển không được giả định là không đổi và thay đổi khi một chiếc xe vượt qua ranh giới giữa hai khoảng thời gian liên tiếp. Thời gian tăng tốc hoặc thời gian giảm tốc được xác định bởi hai tốc độ di chuyển khác nhau trong đường biên là ngắn và nên
 bị coi thường. Nói cách khác, tốc độ di chuyển thay đổi được coi là một chức năng bước (tham khảo Hình 2). Thời gian di chuyển là tổng thời gian di chuyển và tốc độ giao thông khác nhau.
 
-\[ \frac{1}{2}e^2 = \frac{1}{2}(y - \hat{y})^2 = \frac{1}{2}(y - \mathbf{\bar{x}}\mathbf{w})^2 \]
+$$ r = h = \sqrt{\frac {1} {2}} = \sqrt{\frac {N} {N+1}} \sqrt{\frac {N+1} {2N}} $$
