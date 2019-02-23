@@ -60,3 +60,6 @@ $$ t_ij = \sum_{ a\in{L_ij} } \sum_{i=k}^n \frac{l_a^{T_i}}{v_a^{T_i}} $$ (1)
 
 $$ \sum_{i=k}^n l^{T_i}_a = l_a $$ (2)
 
+Trong đó $$ l_a^{T_i} $$ là độ dài của quãng đường di chuyển của xe đi qua liên kết a trong khoảng thời gian $$ T_i $$ và $$ l_a $$ là độ dài của liên kết $$ a $$.
+
+![ Thời gian di chuyể của xe đi qua liên kết a]({{ site.baseurl }}/images/p1_linka.png "Thời gian di chuyể của xe đi qua liên kết a")
