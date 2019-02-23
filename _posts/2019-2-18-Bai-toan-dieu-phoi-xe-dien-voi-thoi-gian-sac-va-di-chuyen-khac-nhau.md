@@ -52,4 +52,4 @@ bị coi thường. Nói cách khác, tốc độ di chuyển thay đổi đư�
 
 
 ví dụ: có nhiều khoảng thời gian $$ T_i với i = 1, 2, 3..n $$ 
-Một chiếc xe rời khỏi nút bắt đầu của liên kết $$ a $$ tại thời điểm $$ T_k $$ và di chuyển với tốc độ $$ V^T_k_a $$
+Một chiếc xe rời khỏi nút bắt đầu của liên kết $$ a $$ tại thời điểm $$ T_k $$ và di chuyển với tốc độ $$ V_a^{T_k} $$
