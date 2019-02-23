@@ -72,7 +72,10 @@ Chúng ta cần có được đường đi ngắn nhất với chi phí
 
 Tuy nhiên, hệ thống giao thông trong thực tế lại có nhiều biến số thay đổi liên tục, các phương tiện mất nhiều thời gian hơn. Phần lớn lái xe quan tâm nhiều hơn đến thời gian thay vì khoảng cách. Do đó, thời gian di chuyển thay vì khoảng cách được coi là liên kết trọng số.
 
-Do những tham số của tình trạng giao thông là  động thay đổi không ngừng, thời gian di chuyển của con đường ngắn nhất từ nguồn đến đích: $$ cost(u, V) $$ đại diện cho trọng số của liên kết giữa (u, V). Xe đến node thứ $$ i $$ tại thời điểm $$ time[i] $$ 
+Thời gian di chuyển của mỗi liên kết không phải lúc nào cũng không đổi và thay đổi theo thời gian thực. Sau đó, trọng lượng liên kết được gây ra là động. Để giải quyết SP với thời gian di chuyển thay đổi, chúng tôi tham khảo cách xây dựng và lý thuyết của thuật toán Dijkstra cổ điển và thực hiện một số cải tiến so với thuật toán Dijkstra cổ điển để đề xuất thuật toán Dijkstra động, trong đó thời gian di chuyển giữa hai bất kỳ
+các nút trong biểu đồ cần được tính toán lại để trọng lượng liên kết được cập nhật theo thời gian thực khi một nút chọn nút được kết nối tiếp theo.
+Theo tính toán thời gian di chuyển trong Mục 2.2, phải biết khoảng thời gian của xe đến nút bắt đầu của liên kết hiện tại. Tuy nhiên,có thể có một số liên kết ngược dòng cho liên kết hiện tại. Khi liên kết hiện tại được chuyển từ các liên kết ngược dòng khác nhau, có thời gian đến khác nhau tại nút bắt đầu của liên kết hiện tại. Vì vậy, khoảng thời gian xe đến nút bắt đầu của liên kết hiện tại phải được ghi trực tuyến kết hợp với các khoảng thời gian của liên kết hiện tại để tính thời gian di chuyển của liên kết hiện tại.
+Dựa trên những ý tưởng của thuật toán Dijkstra động được mô tả ở dưới. Graph là mạng lưới đường bộ, source là điểm gốc xuất phát, target là đích đến. Thời gian di chuyển của con đường ngắn nhất từ nguồn đến đích: $$ cost(u, V) $$ đại diện cho trọng số của liên kết giữa (u, V). Xe đến node thứ $$ i $$ tại thời điểm $$ time[i] $$ 
 
 Mã giả của thuật toán Dijkstra động ( tìm đường ngắn nhất động) như sau:
 ```
@@ -121,6 +124,8 @@ while prev[u] is defined:
 Chèn u vào đầu của S
 
 ```
+
+
 ## Phần 3 xây dựng mô hình
 
 Dựa trên mô tả vấn đề ở phần 2 mô hình EVRP-CTVTT được xây dựng như chương trình tuyến tính bên dưới. Và các biến liên quan trong mô hình được định nghĩa như sau:
