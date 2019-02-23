@@ -56,4 +56,7 @@ Một chiếc xe rời khỏi nút bắt đầu của liên kết $$ a $$
 Hình 3 cho thấy khoảng cách di chuyển và thời gian di chuyển của
 xe đi qua link a. Dựa trên quy trình, thời gian di chuyển từ nút $$ i $$ đến nút $$ j $$ là:
 
-$$ t_ij = \sum_{ a\in{L_ij} } \sum_{i=k}^n \frac{l_a^{T_i}}{v_a^{T_i}} $$, $$ \sum_{i=k}^n l^{T_i}_a = l_a $$,
+$$ t_ij = \sum_{ a\in{L_ij} } \sum_{i=k}^n \frac{l_a^{T_i}}{v_a^{T_i}} $$ (1)
+
+$$ \sum_{i=k}^n l^{T_i}_a = l_a $$ (2)
+
