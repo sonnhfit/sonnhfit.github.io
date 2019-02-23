@@ -74,9 +74,7 @@ Tuy nhiên, hệ thống giao thông trong thực tế lại có nhiều b
 
 Do những tham số của tình trạng giao thông là  động thay đổi không ngừng, thời gian di chuyển của con đường ngắn nhất từ nguồn đến đích: $$ cost(u, V) $$ đại diện cho trọng số của liên kết giữa (u, V). Xe đến node thứ $$ i $$ tại thời điểm $$ time[i] $$ 
 
-## Phần 3 xây dựng mô hình
-
-Dựa trên mô tả vấn đề ở phần 2 mô hình EVRP-CTVTT được xây dựng như chương trình tuyến tính bên dưới. Và các biến liên quan trong mô hình được định nghĩa như sau:
+Mã giả của thuật toán Dijkstra động ( tìm đường ngắn nhất động) như sau:
 ```
 Duyệt từng Node v trong Graph
 {
@@ -123,3 +121,6 @@ while prev[u] is defined:
 Chèn u vào đầu của S
 
 ```
+## Phần 3 xây dựng mô hình
+
+Dựa trên mô tả vấn đề ở phần 2 mô hình EVRP-CTVTT được xây dựng như chương trình tuyến tính bên dưới. Và các biến liên quan trong mô hình được định nghĩa như sau:
