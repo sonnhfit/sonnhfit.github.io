@@ -67,3 +67,5 @@ Trong đó $$ l_a^{T_i} $$ là độ dài của quãng đường di chuyê
 ###  Thuật toán Dijkstra động (Dynamic Dijkstra Algorithm)
 
 Có những giao lộ lớn trong một mạng lưới đường thực sự. Một điều không thực tế là các phương tiện lái xe theo đường thẳng giữa hai nút. Do đó, làm thế nào để tìm ra các đường dẫn ngắn nhất giữa hai nút liền kề dọc theo các tuyến là một vấn đề trong mô hình EVRP-CTVTT.
+Các tuyến đường, thời gian khởi hành xe tại kho, và gói sạc được lấy từ mô hình EVRP-CTVTT hiện diện trong phần 3. Vấn đề đường dẫn ngắn nhất (SP) trong phần này được đề cập để mô tả giải pháp sẽ sử dụng trong mô hình  EVRP-CTVTT.
+Chúng ta cần có được đường đi ngắn nhất với chi phí tối thiểu trong một đồ thị đầy đủ. Phương pháp phổ biến nhất là thuật toán Dijkstra cổ điển đó là một phương pháp giả sử một nút đơn lẻ giống như nút nguồn, và tìm các đường dẫn ngắn nhất từ nguồn tới tất cả các nút khác trong biểu đồ và tạo ra một cây đường đi ngắn nhất. Trong thuật toán Dijkstra cổ điển trọng số liên kết giữa các đỉnh luôn dduocj coi là khoảng cách (Hằng số)
