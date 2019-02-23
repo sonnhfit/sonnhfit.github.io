@@ -49,6 +49,9 @@ url: https://it2soft.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+future: true
+debug: false
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
@@ -70,7 +73,7 @@ kramdown:
 
 # Set the Sass partials directory, as we're using @imports
 sass:
-  style: :expanded # You might prefer to minify using :compressed
+  style: :compressed # You might prefer to minify using :compressed
 
 # Use the following plug-ins
 gems:
