@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Bài toán điều phối xe điện với thời gian sạc và di chuyển khác nhau
+mathjax: true
 ---
 
 Chào các bạn mình là **Sơn** hôm trước mình được một bạn nữ nhờ nghiên cứu bài toán điều phối xe điện cho đồ án tốt nghiệp của bạn ấy. Do bạn ấy cười cũng xinh và tính dại gái của mình nổi lên và mình đã nhận lời nghiên cứu bài toán này. Đó là lý do bài viêt này ra đời.
