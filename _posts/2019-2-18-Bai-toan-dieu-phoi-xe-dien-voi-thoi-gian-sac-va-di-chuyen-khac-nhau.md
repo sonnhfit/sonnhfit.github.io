@@ -85,5 +85,7 @@ Duyệt từng Node v trong Graph
     Thêm v vào hàng đợi Q
 }
 
+dist[source] = 0
+$$ u_0 = source $$
 
 ```
