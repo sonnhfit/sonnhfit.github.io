@@ -63,3 +63,7 @@ $$ \sum_{i=k}^n l^{T_i}_a = l_a $$ (2)
 Trong đó $$ l_a^{T_i} $$ là độ dài của quãng đường di chuyển của xe đi qua liên kết a trong khoảng thời gian $$ T_i $$ và $$ l_a $$ là độ dài của liên kết $$ a $$.
 
 ![ Thời gian di chuyể của xe đi qua liên kết a]({{ site.baseurl }}/images/p1_linka.png "Thời gian di chuyể của xe đi qua liên kết a")
+
+###  Thuật toán Dijkstra động (Dynamic Dijkstra Algorithm)
+
+Có những giao lộ lớn trong một mạng lưới đường thực sự. Một điều không thực tế là các phương tiện lái xe theo đường thẳng giữa hai nút. Do đó, làm thế nào để tìm ra các đường dẫn ngắn nhất giữa hai nút liền kề dọc theo các tuyến là một vấn đề trong mô hình EVRP-CTVTT.
