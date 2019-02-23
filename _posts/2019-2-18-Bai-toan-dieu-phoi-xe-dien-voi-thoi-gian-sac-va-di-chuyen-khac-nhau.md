@@ -77,3 +77,13 @@ Do những tham số của tình trạng giao thông là  động thay đô
 ## Phần 3 xây dựng mô hình
 
 Dựa trên mô tả vấn đề ở phần 2 mô hình EVRP-CTVTT được xây dựng như chương trình tuyến tính bên dưới. Và các biến liên quan trong mô hình được định nghĩa như sau:
+```
+Duyệt từng Node v trong Graph
+{
+    dist[v] = vô cực
+    prev[v] = Undefined
+    Thêm v vào hàng đợi Q
+}
+
+
+```
