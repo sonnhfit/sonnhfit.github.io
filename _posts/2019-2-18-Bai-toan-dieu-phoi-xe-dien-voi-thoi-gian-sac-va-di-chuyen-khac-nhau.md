@@ -213,6 +213,6 @@ subject to $$ \sum_{i \in C \cup F \cup O} x_{ijk} = 1 \forall j \in C, \forall 
 
 $$ \sum_{j \in C\cupF\cup{O'}} x_{ijk} = 1 \forall i \in C, \forall k \in K $$ (9)
 
-$$ \sum $$ (10)
+$$ \sum_{ \forall i \in C \cup F\cup O} x_{ijk} = \sum_{\forall } $$ (10)
 
 
