@@ -156,7 +156,7 @@ $$ O $$: bắt đầu kho
 
 $$ O' $$: kết thúc kho
 
-$$ V: O \cup C \cup F \cup O' $$
+$$ V: O \cup C \cup F \cup O' $$.
 
 $$ K $$: một bộ các phương tiện có sẵn
 
