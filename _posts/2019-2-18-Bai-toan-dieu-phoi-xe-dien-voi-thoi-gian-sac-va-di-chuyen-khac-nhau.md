@@ -207,3 +207,12 @@ $$ Ct_k = c_t (\sum_{i \in {O'}}T_{ik} - \sum_{i \in {O}}T_{ik} - t_c \sum_{i \i
 $$ Cr_k = c_c \sum_{i \in F}y_{ik} $$ (6)
 
 
+$$ Cp_k = \sum_{i \in C}[c_e max {0, T_i^{early}} + c_d max {0, T_[ik] - T_i^{delay}}] $$ (7)
+
+subject to $$ \sum_{i \in C \cup F \cup O} x_{ijk} = 1 \forall j \in C, \forall k \in K $$ (8)
+
+$$ \sum_{j \in C\cupF\cup{O'}} x_{ijk} = 1 \forall i \in C, \forall k \in K $$ (9)
+
+$$ \sum $$ (10)
+
+
