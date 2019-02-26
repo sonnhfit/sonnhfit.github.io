@@ -197,7 +197,7 @@ $$ y_{jk} $$: {1, xe k được sạc lại tại nút j; 0, Trường hợp k
 
 
 Trong đó hàm mục tiêu của model như sau:
-Minimize $$ C_0 =  $$ \sum_{k \in K } Cf_k + Ct_k + Cr_k + Cp_k,  $$ (3)
+Minimize $$ C_0 =  \sum_{k \in K } Cf_k + Ct_k + Cr_k + Cp_k $$ (3)
 
 $$ Cf_k = c_f(1 - \sum_{i \in O} \sum_{j \in {O'}} x_{ijk})$$ (4)
 
