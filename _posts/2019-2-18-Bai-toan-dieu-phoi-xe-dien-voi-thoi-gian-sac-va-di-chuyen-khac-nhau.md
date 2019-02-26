@@ -245,3 +245,44 @@ $$ x_{ijk} = {0, 1} \forall j \in C \cup F \cup O' , \forall i \in C \cup F \cup
 
 
 Phương trình (3) giảm thiểu tổng chi phí, bao gồm chi phí cố định phương tiện, chi phí đi lại, chi phí phạt và chi phí sạc. Trong (4), các phương tiện được sử dụng chi phí cố định phương tiện. Chi phí đi lại trong (5) tỷ lệ thuận với thời gian di chuyển. Phương trình (6) mô tả chi phí để sử dụng các trạm sạc. Bởi vì khách hàng có thể được phục vụ sớm hoặc muộn, nên chi phí phạt được tính theo (7).
+
+Phương trình (8) và (9) đảm bảo rằng mỗi khách hàng chỉ được truy cập bằng một phương tiện. Phương trình (10) trình bày dòng chảy bảo tồn, trong đó số lượng khách đến phải bằng số lần khởi hành tại bất kỳ khách hàng hoặc trạm thu phí nào. Phương trình (11) và (12) yêu cầu tất cả các phương tiện rời khỏi kho bắt đầu và trở về kho cuối. Bởi vì chỉ có một kho tồn tại, kho bắt đầu và kho cuối được đặt tại cùng một nút (𝑂 = 𝑂'). Không có phương tiện đang chạy vượt qua bất kỳ nút, ngoại trừ kho bắt đầu và kho cuối.
+
+Phương trình (13) là biểu thức của phạm vi dư. Các ổ đĩa dựa trên con đường ngắn nhất được giải quyết trong Phần 2.3. Giới hạn phạm vi mà phạm vi còn lại của bất kỳ phương tiện nào tại bất kỳ nút nào phải lớn hơn 0 được đề xuất trong (14). Công thức (15) nói rằng mỗi chiếc xe có phí 100% khi rời kho bắt đầu.
+
+Công thức (16) nói rằng các phương tiện giao tải nhiều tải đến khách hàng. Phương trình (17) đảm bảo rằng trọng lượng tải của mỗi chiếc xe không vượt quá khả năng tải của xe. Trong (18), thời gian khởi hành xe tại nút hiện tại bằng với tổng thời gian khởi hành xe tại nút cuối cùng, hành trình thời gian giữa nút cuối cùng và nút hiện tại và thời gian sạc. Thời gian di chuyển có được bằng thời gian di chuyển tính toán ((1) - (2)). Phương trình (19) - (20) đảm bảo rằng tất cả xe thực hiện giao hàng trong thời gian vận hành xe giai đoạn.
+
+Phương trình (21) yêu cầu tất cả các phương tiện chỉ đến thăm trạm sạc để được sạc lại. Phương trình (22) và (23) đảm bảo rằng $$ y_{jk} $$ và x_{ijk} là các biến quyết định 0-1.
+
+Phần 4 Mô hình giải pháp công nghệ
+
+Các VRP và các biến thể là một vấn đề khó NP. các thuật toán có thể đạt được hiệu suất tốt hơn trong tính toán thời gian và chất lượng giải pháp cho VRP và các biến thể. Như một trong số các thuật toán heuristic, thuật toán di truyền (GA) là dễ dàng để lập trình và có thời gian tính toán nhanh hơn. Hơn nữa, GA đã được áp dụng rộng rãi trong các VRP hoặc biến thể phức tạp thực hiện đặc biệt là trong các mạng lưới đường lớn và thực tế và có thể có được giải pháp tốt hơn chấp nhận được. Do đó, xem xét sự phức tạp của mô hình đề xuất và con đường mạng, GA được coi là công nghệ giải pháp mô hình trong bài báo.
+
+Trong GA, một số lượng cá thể có gen được xử lý bởi các toán tử chọn và nhân để sản xuất cá nhân mới. Các cá nhân có thể lực tốt hơn sẽ có được nhiều cơ hội hơn để tồn tại. Để đạt được sự đa dạng Trong số các cá nhân, chéo và đột biến được áp dụng trong thủ tục GA. Quy trình của GA được hiển thị là sau.
+
+Bước 1. Áp dụng chế độ được mã hóa để tạo ra quần thể ban đầu
+𝑃 (𝑔𝑒𝑛) (| 𝑃 (𝑔𝑒𝑛) | = 𝑁); thì = 0.
+
+![ Giá trị tham số]({{ site.baseurl }}/images/bang2_bai2.png "Giá trị tham số")
+
+Bước 2. Tính toán thể lực cho từng cá nhân trong P(𝑔𝑒𝑛)
+
+Bước 3. Chọn $$ Ne  $$ cá nhân từ $$ 𝑃(gen) $$ ở thể lực cao giá trị như những cá nhân ưu tú. Những cá nhân ưu tú thì không xử lý; sang Bước 7. Các cá nhân còn lại sáng tác một dân số bình thường $$ P1(gen) (| P1 (gen) | = 𝑁 - Ne). $$
+
+Bước 4. Cứ hai cá thể trong P1(gen) tạo thành một cặp áp dụng trong một chéo. Mỗi cá nhân được yêu cầu phải thỏa mãn tất cả các ràng buộc. Nếu không, cặp đôi là vô ích; chạy chéo lần nữa. 𝑃1 (gen) được cập nhật.
+
+Bước 5. Mỗi cá nhân trong P1(gen) được áp dụng trong một đột biến. Mỗi cá nhân được yêu cầu phải đáp ứng tất cả các ràng buộc. Nếu không, cá nhân là vô ích; chạy lại đột biến. 𝑃1 (gen) là cập nhật.
+
+Bước 6. 1 P1(pen) và các cá nhân ưu tú được kết hợp để tạo thành một quần thể mới P(gen), trong đó gen = gen + 1.
+
+Bước 7. Nếu gen < T, quay lại Bước 3. Nếu không, hãy ngừng chạy
+và đầu ra cá nhân có giá trị thể dục cao nhất trong
+𝑃 (gen).
+
+Bước 8. Giải mã cá nhân để đạt được giải pháp tối ưu
+
+Các tham số GA (số lượng cá nhân, số lượng thế hệ, số lượng cá nhân ưu tú, tỷ lệ chéo, và tỷ lệ đột biến) có thể có tác động đến các giá trị giải pháp. Ba tham số (số lượng cá thể, số lượng thế hệ và số lượng cá nhân ưu tú) được xác định bằng nhiều thí nghiệm với các thông số khác nhau. Và hai các tham số (tỷ lệ chéo và tỷ lệ đột biến) được chọn trong phạm vi giá trị hợp lý của họ. Tất cả các tham số trong GA là được liệt kê trong Bảng 2.
+
+Hai biến quyết định $$ y_{ik} $$ (tuyến đường) và $$ 𝑥_{ijk} $$ (tính phí kế hoạch) có thể được lấy từ cá nhân. Mã hóa chế độ trong đó các biến quyết định được thể hiện bởi cá nhân là tiền đề của GA. Chúng tôi áp dụng chế độ trong đó cá nhân bao gồm tất cả các nút truy cập. Ví dụ, có là một kho, nn khách hàng,mm trạm sạc và phương tiện. Quy trình của chế độ được mã hóa như sau:
+
+(1) Số sê-ri của nn khách hàng và mm các trạm tính phí được sắp xếp liên tiếp là 1 ,. . . , nn, nn + 1 ,. . . , mm.
