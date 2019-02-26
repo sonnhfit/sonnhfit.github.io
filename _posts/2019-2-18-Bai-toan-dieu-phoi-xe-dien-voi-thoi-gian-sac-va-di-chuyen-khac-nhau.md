@@ -254,7 +254,7 @@ Công thức (16) nói rằng các phương tiện giao tải nhiều tải đ�
 
 Phương trình (21) yêu cầu tất cả các phương tiện chỉ đến thăm trạm sạc để được sạc lại. Phương trình (22) và (23) đảm bảo rằng $$ y_{jk} $$ và x_{ijk} là các biến quyết định 0-1.
 
-Phần 4 Mô hình giải pháp công nghệ
+## Phần 4 Mô hình giải pháp công nghệ
 
 Các VRP và các biến thể là một vấn đề khó NP. các thuật toán có thể đạt được hiệu suất tốt hơn trong tính toán thời gian và chất lượng giải pháp cho VRP và các biến thể. Như một trong số các thuật toán heuristic, thuật toán di truyền (GA) là dễ dàng để lập trình và có thời gian tính toán nhanh hơn. Hơn nữa, GA đã được áp dụng rộng rãi trong các VRP hoặc biến thể phức tạp thực hiện đặc biệt là trong các mạng lưới đường lớn và thực tế và có thể có được giải pháp tốt hơn chấp nhận được. Do đó, xem xét sự phức tạp của mô hình đề xuất và con đường mạng, GA được coi là công nghệ giải pháp mô hình trong bài báo.
 
@@ -286,3 +286,29 @@ Các tham số GA (số lượng cá nhân, số lượng thế hệ, số lư�
 Hai biến quyết định $$ y_{ik} $$ (tuyến đường) và $$ 𝑥_{ijk} $$ (tính phí kế hoạch) có thể được lấy từ cá nhân. Mã hóa chế độ trong đó các biến quyết định được thể hiện bởi cá nhân là tiền đề của GA. Chúng tôi áp dụng chế độ trong đó cá nhân bao gồm tất cả các nút truy cập. Ví dụ, có là một kho, nn khách hàng,mm trạm sạc và phương tiện. Quy trình của chế độ được mã hóa như sau:
 
 (1) Số sê-ri của nn khách hàng và mm các trạm tính phí được sắp xếp liên tiếp là 1 ,. . . , nn, nn + 1 ,. . . , mm.
+
+(2) Sau khi bị rối loạn, chuỗi số được xác định như A.
+
+![ Bảng 4]({{ site.baseurl }}/images/bang4_bai2.png "Giá trị tham số")
+
+(3) Xác định tuần tự các số sê-ri là mm + 1,mm + 2 ,. . . , mm + 𝑘𝑘 tại các kho bắt đầu và kho cuối.
+
+(4) Vị trí đầu tiên và vị trí cuối cùng của được chèn
+lần lượt bằng các số $$ mm + 1 $$ và $$ mm  + 2 $$.
+
+(5) Cuối cùng, các số $$ mm + 3, mm + 4 ,. . . , mm + 2𝑘𝑘  $$ là ngẫu nhiên chèn vào bất kỳ vị trí nào khác của.
+
+Việc chèn $$ A $$  tạo thành một cá thể. Cá thể là chia thành nhiều phân đoạn theo các số từ $$ mm + 1 $$ 
+đến $$ mm + 2kk $$. Mỗi phân đoạn có thể được chuyển đổi thành một tuyến đường. Tuy nhiên, một số tuyến đường được coi là không hiệu quả vì chúng không ghé thăm bất kỳ khách hàng nào.
+
+Một ví dụ đơn giản được hiển thị trong Hình 4 để giải thích chế độ được mã hóa. Ba phương tiện, một trạm sạc, và chín khách hàng có sẵn. Dựa trên quy trình của chế độ được mã hóa, một cá nhân được hình thành. Một số phát hiện có thể đạt được bằng cách giải mã từng cá nhân: tuyến 1 thăm khách hàng 5, 2 và 1; tuyến đường 2 không hiệu quả; tuyến 3 thăm khách hàng 4, 9, 6, 3, 7 và 8; và tuyến đường 3 được sạc lại trước khi trở về kho.
+
+Ngoài hai biến quyết định ($$ y_{jk} $$ và $$ x_{ijk} $$ ),biến quyết định còn lại $$ T_{Ok} $$  chỉ ra rằng chiếc xe thời gian khởi hành tại kho được giải quyết một mình. Giấy áp dụng phương pháp toàn diện. Tập hợp thời gian khởi hành có sẵn bao gồm thời gian trong khoảng thời gian mười phút giữa thời gian hoạt động sớm nhất và thời gian hoạt động mới nhất (ví dụ: 06:00, 06:10, ..., 20:50, 21:00).
+
+Mỗi tuyến hiệu quả có trật tự khớp với một thời gian khởi hành có sẵn để tính giá trị đối tượng. Đối với giá trị đối tượng tối thiểu, thời gian khởi hành có sẵn được coi là thời gian khởi hành xe tại kho.
+
+## Phần 5 Nghiên cứu trường hợp thực tế lớn
+
+
+
+
