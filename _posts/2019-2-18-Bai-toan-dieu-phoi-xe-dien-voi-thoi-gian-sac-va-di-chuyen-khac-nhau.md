@@ -267,7 +267,7 @@ Bước 1. Áp dụng chế độ được mã hóa để tạo ra quần thê�
 
 Bước 2. Tính toán thể lực cho từng cá nhân trong P(𝑔𝑒𝑛)
 
-Bước 3. Chọn $$ Ne  $$ cá nhân từ $$ 𝑃(gen) $$ ở thể lực cao giá trị như những cá nhân ưu tú. Những cá nhân ưu tú thì không xử lý; sang Bước 7. Các cá nhân còn lại sáng tác một dân số bình thường $$ P1(gen) (| P1 (gen) | = 𝑁 - Ne). $$
+Bước 3. Chọn $$ Ne  $$ cá nhân từ $$ 𝑃(gen) $$ ở thể lực cao giá trị như những cá nhân $$ P1 = N $$ ưu tú. Những cá nhân ưu tú thì không xử lý; sang Bước 7. Các cá nhân còn lại sáng tác một dân số bình thường $$ P1(gen) (| P1 (gen) | = 𝑁 - Ne). $$
 
 Bước 4. Cứ hai cá thể trong P1(gen) tạo thành một cặp áp dụng trong một chéo. Mỗi cá nhân được yêu cầu phải thỏa mãn tất cả các ràng buộc. Nếu không, cặp đôi là vô ích; chạy chéo lần nữa. 𝑃1 (gen) được cập nhật.
 
@@ -324,4 +324,55 @@ Một nghiên cứu trường hợp lớn và thực tế được thực hiện
 
 ![ Bảng 5]({{ site.baseurl }}/images/bang5_bai2.png "Giá trị tham số")
 
+![ Bảng 5]({{ site.baseurl }}/images/bang6_bai2.png "Giá trị tham số")
 
+![ Bảng 5]({{ site.baseurl }}/images/table3_bai2.png "Giá trị tham số")
+
+
+![ Bảng 5]({{ site.baseurl }}/images/table4_bai2.png "Giá trị tham số")
+
+MATLAB R2012a được áp dụng trong triển khai GA. Do
+với tính ngẫu nhiên của thuật toán, GA được chạy liên tục mười lần
+Thời gian tính toán mà thuật toán thực hiện mỗi thí nghiệm không khác nhau lắm. Thời gian tính toán trung bình là khoảng 3 h. Hãy xem xét rằng mô hình và mạng lưới đường thực tế là quá phức tạp. Ngoài ra, kết quả thu được một ngày trước khi kết quả được thực hiện thực tế. Do đó, thời gian tính toán mà thuật toán thực hiện là chấp nhận được. Đối tượng mô hình (giá trị đối tượng tối ưu) được coi là chỉ số thử nghiệm được so sánh. Thí nghiệm có giá trị đối tượng tối ưu nhất sẽ được phân tích chi tiết. Kết quả được so sánh trong Bảng 4 chỉ ra rằng Thí nghiệm 1 có hiệu suất giải pháp tốt nhất. Quá trình lặp lại thuật toán của Thí nghiệm 1 (Hình 7) cho thấy GA có thể nhanh chóng đảm bảo sự hội tụ và cải thiện nỗ lực tính toán. Ngoài ra, kết quả, bao gồm các tuyến đường, thời gian khởi hành xe tại kho và kế hoạch sạc, được trình bày như sau. Thông tin về phương tiện đang chạy bao gồm thời gian khởi hành xe, quãng đường di chuyển và thứ tự của các nút được truy cập được thể hiện trong Bảng 5. Bảng 6 tóm tắt tất cả các chi phí.
+
+![ Bảng 5]({{ site.baseurl }}/images/bang7_bai2.png "Giá trị tham số")
+
+![ Bảng 5]({{ site.baseurl }}/images/bang8_bai2.png "Giá trị tham số")
+
+Theo yêu cầu, bảy chiếc xe được phái đi. Khoảng cách di chuyển của tuyến đường 1 vượt quá phạm vi lái xe tối đa (120 km). Do phạm vi hạn chế, phương tiện trên tuyến 1 bắt buộc phải được sạc lại tại trạm sạc 2 trong quá cảnh. Hơn nữa, thời gian sạc sẽ trì hoãn thời gian phục vụ khách hàng và tạo ra chi phí phạt lớn hơn cho tuyến 1.
+Là yếu tố quan trọng nhất ảnh hưởng đến các tuyến đường và kế hoạch tính phí, phạm vi còn lại của mỗi chiếc xe đến bất kỳ nút nào được truy cập cần phải được phân tích chi tiết (tham khảo Hình 8). Nó chỉ ra rằng giải pháp tối ưu thu được thỏa mãn giới hạn phạm vi rằng phạm vi còn lại của xe tại bất kỳ nút nào được truy cập phải vượt quá 0.
+Đối với tuyến đường 1, do xe được sạc đầy tại trạm sạc 2, phạm vi còn lại cho khách hàng 22 là nút được truy cập đầu tiên sau khi xe được sạc lại tăng rõ rệt.
+
+Bên cạnh các tuyến đường, thời gian khởi hành xe tại kho, và kế hoạch tính phí, phải có kết quả về vấn đề đường đi ngắn nhất. Chúng tôi cũng mô tả các con đường ngắn nhất dọc theo các tuyến đường trong mạng lưới đường bộ. Theo Hình 9, đường chạy của từng tuyến có thể được hiển thị rõ ràng. Các phương tiện tương ứng ghé thăm khách hàng hoặc trạm sạc một cách có trật tự.
+
+## Kết luận
+
+Hiện nay, EV ngày càng tăng được sử dụng trong các khác nhau lĩnh vực giao thông như hậu cần. Để giải quyết tốt hơn vấn đề làm thế nào kế hoạch vận hành xe được lên kế hoạch Khi EV được coi là chế độ vận chuyển để thăm khách hàng trong mạng lưới đường bộ thực sự, bài viết này toàn diện xem xét các tính năng phân phối (cửa sổ thời gian và trọng lượng ràng buộc), các đặc tính EV (phạm vi giới hạn và nhu cầu sạc) và môi trường giao thông động để phát triển mô hình EVRP-CTVTT với tổng chi phí tối thiểu.
+
+![ Bảng 5]({{ site.baseurl }}/images/table5_bai2.png "Giá trị tham số")
+
+![ Bảng 5]({{ site.baseurl }}/images/table6_bai2.png "Giá trị tham số")
+
+Một kế hoạch vận hành phương tiện tối ưu, bao gồm đồng thời các tuyến đường, thời gian khởi hành phương tiện tại kho, kế hoạch sạc và các con đường ngắn nhất, đã đạt được.
+
+Do phạm vi hạn chế, EV đôi khi được sạc lại tại các trạm sạc nhiều lần trong khi quá cảnh để đảm bảo chuyến đi được hoàn thành. Phương pháp tốt nhất để gán tối ưu các trạm sạc cho EV với nhu cầu sạc cũng được thảo luận trong bài báo.
+
+Trong thực tế, giao thông liên tục thay đổi. Khác với phần lớn các giấy tờ liên quan, bài viết này tập trung trên môi trường giao thông năng động. Để thực hiện tính năng động của giao thông, sự biến động của thời gian di chuyển là được giới thiệu trong mô hình đang phát triển. Du lịch thay đổi tốc độ cứ sau 2 phút được áp dụng để tính toán thời gian đi lại Dựa trên tốc độ di chuyển thay đổi, một thuật toán Dijkstra năng động thực hiện một số cải tiến trên thuật toán Dijkstra cổ điển được đề xuất để giải quyết con đường ngắn nhất giữa bất kỳ hai nút liền kề dọc theo tuyến đường.
+
+Một nghiên cứu trường hợp lớn và thực tế với mạng lưới đường bộ tại khu vực đô thị Bắc Kinh, với 50 khách hàng và 20 trạm sạc, được trình bày. GA được áp dụng để giải quyết Mô hình EVRP-CTVTT và thu được một số kết quả, bao gồm các tuyến đường, thời gian khởi hành xe tại kho, và phương án thu phí.
+
+Kết quả chỉ ra rằng GA mang lại hiệu suất chấp nhận được về thời gian tính toán, độ hội tụ và chất lượng giải pháp.
+Từ kết quả, chúng tôi kết luận rằng EVRP-CTVTT mô hình và thuật toán Dijkstra hoàn toàn thỏa mãn nhu cầu của khách hàng trong khi giảm chi phí, ngăn chặn sự cạn kiệt của tất cả năng lượng pin trong khi vận chuyển và đảm bảo Hoạt động an toàn. Ngoài ra, kết quả cung cấp một sơ đồ phương tiện tối ưu cho công ty hậu cần với EV hoạt động.
+
+Mặc dù bài báo trước tiên xem xét thời gian tính phí và thời gian di chuyển thay đổi để giải quyết EVRP, một số khía cạnh vẫn chưa được giải quyết
+
+(i) Ngay cả khi chúng tôi áp dụng dữ liệu tốc độ giao thông thực tế, đôi khi có sự ngẫu nhiên trong tốc độ di chuyển do một số tai nạn giao thông. Do đó, các biểu thức phức tạp hơn của tốc độ di chuyển sẽ được tập trung vào.
+
+(ii) Các vị trí trạm sạc, có thể ảnh hưởng đến gói sạc, được cố định. Vấn đề tuyến đường liên kết nghiên cứu liên quan và vấn đề vị trí sẽ được điều tra trong tương lai.
+
+(iii) Giải pháp tối ưu bị ảnh hưởng rất nhiều bởi các tham số chi phí trên mỗi đơn vị. Bài viết này trực tiếp cung cấp các giá trị dựa trên kinh nghiệm hoạt động. Công việc trong tương lai của chúng tôi sẽ bao gồm phân tích độ nhạy cho các thông số này.
+
+![ Bảng 5]({{ site.baseurl }}/images/bang9_bai2.png "Giá trị tham số")
+![ Bảng 5]({{ site.baseurl }}/images/bang10_bai2.png "Giá trị tham số")
+![ Bảng 5]({{ site.baseurl }}/images/bang11_bai2.png "Giá trị tham số")
+![ Bảng 5]({{ site.baseurl }}/images/bang12_bai2.png "Giá trị tham số")
