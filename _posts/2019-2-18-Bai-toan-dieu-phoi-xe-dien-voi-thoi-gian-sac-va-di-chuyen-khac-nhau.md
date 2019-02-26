@@ -95,7 +95,7 @@ Trong khi Q chưa rỗng
     xóa u khỏi Q
     Nếu prev[u] is defined
     {
-        u = prev[u]
+        u0 = prev[u]
         cost(u0, u) = kết quả của biểu thức (1) với T0
         time[u] = time[u0] + cost(u0, u)
 
@@ -194,3 +194,16 @@ $$ T_{Ok} $$: Giờ khởi hành của xe k tại kho
 $$ x_{ijk} $$: {1, xe k thăm từ node i đến node j; 0, Trường hợp khác} 
 
 $$ y_{jk} $$: {1, xe k được sạc lại tại nút j; 0, Trường hợp khác}
+
+
+Trong đó hàm mục tiêu của model như sau:
+Minimize $$ C_0 =  $$ \sum_{k \in K } Cf_k + Ct_k + Cr_k + Cp_k,  $$ (3)
+
+$$ Cf_k = c_f(1 - \sum_{i \in O} \sum_{j \in {O'}} x_{ijk})$$ (4)
+
+
+$$ Ct_k = c_t (\sum_{i \in {O'}}T_{ik} - \sum_{i \in {O}}T_{ik} - t_c \sum_{i \in F}y_{ik}) $$ (5)
+
+$$ Cr_k = c_c \sum_{i \in F}y_{ik} $$ (6)
+
+
