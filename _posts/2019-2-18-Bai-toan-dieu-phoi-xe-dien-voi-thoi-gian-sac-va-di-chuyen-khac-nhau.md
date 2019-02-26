@@ -14,7 +14,7 @@ Trong khi đó một giải thuật Dynamic  Dijkstra tìm đường ngắn nh�
 
 ## Phần 1 mở đầu
 
- Với khủng hoảng năng lượng và ô nhiễm môi trường, sử dụng năng lượng ví dụ như săng dầu hoặc những chất đốt tương tự đang gây ô nhiễm môi trường và được nhiều quốc gia quan tâm chú ý. 30% khí thải từ hoạt động giao thông gây hiệu ứng nhà kính ở USA. Vì thế việc sử lý hiệu quả, chuyên sâu, và giảm lượng cacbon của hoạt động giao thông là một chủ đề rất được quan tâm. Có hai cách tiếp cận bền vững cho vấn đề này.
+ Với khủng hoảng năng lượng và ô nhiễm môi trường, sử dụng năng lượng ví dụ như săng dầu hoặc những chất đốt tương tự đang gây ô nhiễm môi trường và được nhiều quốc gia quan tâm chú ý. 30% khí thải từ hoạt động giao thông gây hiệu ứng nhà kính ở USA. Vì thế việc xử lý hiệu quả, chuyên sâu, và giảm lượng cacbon của hoạt động giao thông là một chủ đề rất được quan tâm. Có hai cách tiếp cận bền vững cho vấn đề này.
 Chúng ta sẽ bắt đầu xem sét. Vấn đề công nghệ tái tạo năng lượng và việc sử dụng hiệu quả các phương thức trong vận tải. Một hướng khác phát triển và tái cấu trúc công nghệ năng lượng ví dự như các loại xe AFVs, PHEVs, EVs (các loại xe điện, hoặc các loại xe kết hợp nhiều dạng nguyên liệu) 
 
 
@@ -154,5 +154,43 @@ $$ F $$: một bộ trạm sạc
 
 $$ O $$: bắt đầu kho
 
-$$ O^' $$: kết thúc kho
+$$ O' $$: kết thúc kho
 
+$$ V: O \cup C \cup F \cup O' $$
+
+$$ K $$: một bộ các phương tiện có sẵn
+
+$$ D_{ik} $$: phạm vi còn lại của xe k tại nút 𝑖 (km)
+
+$$ d_{ij} $$: Khoảng cách di chuyển của con đường ngắn nhất từ node i tới node j (km)
+
+$$ D_{max} $$: Phạm vi lái xe tối đa (km)
+
+$$ W_{Ok} $$: tải trọng của xe k khởi hành từ đầu kho (kg)
+
+
+$$ w_i $$: trọng lượng hàng hóa của nút 𝑖 (kg)
+
+$$ W_{max} $$: tải trọng xe (kg)
+
+$$ t_{ijk} $$: Thời gian di chuyển của phương tiện k đi từ nút i đến nút j (phút)
+
+$$ T_{ik} $$: Thời gian khởi hành của xe k tại nút i
+
+$$ T_o^{early} $$: thời gian hoạt động xe sớm nhất
+
+$$ T_{o'}^{delay} $$: thời gian vận hành xe mới nhất
+
+$$ T_i^{early} $$ thời gian đến sớm nhất tại nút i
+
+$$ T_i^{delay} $$ thời gian đến muộn nhất tại nút i
+
+$$ t_c $$: thời gian sạc (phút)
+
+$$ z_j $$: có trạm sạc tại nút $$ 𝑗, {1, 𝑗 \in 𝐹;0, khác} $$
+
+$$ T_{Ok} $$: Giờ khởi hành của xe k tại kho
+
+$$ x_{ijk} $$: {1, xe k thăm từ node i đến node j; 0, Trường hợp khác} 
+
+$$ y_{jk} $$: {1, xe k được sạc lại tại nút j; 0, Trường hợp khác}
