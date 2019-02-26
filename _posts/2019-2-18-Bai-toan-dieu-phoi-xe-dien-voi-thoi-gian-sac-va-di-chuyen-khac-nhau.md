@@ -242,3 +242,6 @@ $$ y_{jk} <= z_j \forall j \in V , \forall k \in K $$ (21)
 $$ y_{jk} = {0, 1} \forall j \in V , \forall k \in K $$ (22)
 
 $$ x_{ijk} = {0, 1} \forall j \in C \cup F \cup O' , \forall i \in C \cup F \cup O, \forall k \in K $$ (23)
+
+
+Phương trình (3) giảm thiểu tổng chi phí, bao gồm chi phí cố định phương tiện, chi phí đi lại, chi phí phạt và chi phí sạc. Trong (4), các phương tiện được sử dụng chi phí cố định phương tiện. Chi phí đi lại trong (5) tỷ lệ thuận với thời gian di chuyển. Phương trình (6) mô tả chi phí để sử dụng các trạm sạc. Bởi vì khách hàng có thể được phục vụ sớm hoặc muộn, nên chi phí phạt được tính theo (7).
