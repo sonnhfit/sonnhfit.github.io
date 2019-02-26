@@ -211,8 +211,34 @@ $$ Cp_k = \sum_{i \in C}[c_e max {0, T_i^{early}} + c_d max {0, T_[ik] - T_i^{de
 
 subject to $$ \sum_{i \in C \cup F \cup O} x_{ijk} = 1 \forall j \in C, \forall k \in K $$ (8)
 
-$$ \sum_{j \in C\cupF\cup{O'}} x_{ijk} = 1 \forall i \in C, \forall k \in K $$ (9)
+$$ \sum_{j \in C\cup F\cup{O'}} x_{ijk} = 1 \forall i \in C, \forall k \in K $$ (9)
 
-$$ \sum_{ \forall i \in C \cup F\cup O} x_{ijk} = \sum_{\forall } $$ (10)
+$$ \sum_{ \forall i \in C \cup F\cup O} x_{ijk} = \sum_{\forall m \in C \cup F \cup {O'}} x_{jmk} \forall j \in C \cup F, \forall k \in K $$ (10)
+
+$$ \sum_{ \forall j \in C \cup F \cup {O'}} x_{Ojk} = 1 \forall k \in K $$ (11)
 
 
+$$ \sum_{ \forall j \in C \cup F \cup {O}} x_{jO'k} = 1 \forall k \in K $$ (12)
+
+$$ D_{jk} = [D_{jk}(1-y_{jk}) + y_{ik}D_{max} - d_{ij}]x_{ijk} \forall i \in C \cup F \cup O , \forall j \in C \cup F \cup O' , \forall k \in K  $$ (13)
+
+$$ D_{ik} >= 0 \forall j \in C \cup F \cup O' , \forall k \in K $$ (14)
+
+$$ D_{Ok} = D_{max} \forall k \in K  $$ (15)
+
+
+$$ W_{Ok} <= W_{max} \forall j \in V \forall k \in K $$ (16)
+
+$$ W_{Ok} <= W_{max} \forall j \in V, \forall k \in K $$ (17)
+
+$$ T_{jk} = (T_{ik} + t_{ijk} + y_{ik}t_c)x_{ijk} \forall i \in C \cup F \cup O, \forall j \in C \cup F \cup O' , \forall k \in K $$ (18)
+
+$$ T_O^{early} <= T_{Ok}  \forall k \in K $$ (19)
+
+$$ T_{O'}^{delay} >= T_{O'k} \forall k \in K $$ (20)
+
+$$ y_{jk} <= z_j \forall j \in V , \forall k \in K $$ (21)
+
+$$ y_{jk} = {0, 1} \forall j \in V , \forall k \in K $$ (22)
+
+$$ x_{ijk} = {0, 1} \forall j \in C \cup F \cup O' , \forall i \in C \cup F \cup O, \forall k \in K $$ (23)
