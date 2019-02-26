@@ -131,14 +131,28 @@ Chèn u vào đầu của S
 Dựa trên mô tả vấn đề ở phần 2 mô hình EVRP-CTVTT được xây dựng như chương trình tuyến tính bên dưới. Và các biến liên quan trong mô hình được định nghĩa như sau:
 
 $$ C_0 $$: Tổng chi phí
+
 $$ Cf_k $$: Chi phí cố định của xe k
+
 $$ Ct_k $$: Chi phí thời gian đi lại của xe k
+
 $$ Cr_k $$: Chi phí sạc xe k
+
 $$ Cp_k $$: Chi phí thưởng phạt của xe k
+
 $$ C_f $$: Chi phí xe cố định trên mỗi đơn vị
+
 $$ c_t $$: Chi phí thời gian cho mỗi đơn vị
+
 $$ c_c $$: chi phí sạc trên mỗi đơn vị
+
 $$ c_e $$: chi phí phạt đến sớm mỗi đơn vị
+
 $$ c_d $$: chi phí phạt chậm trễ mỗi đơn vị
+
 $$ F $$: một bộ trạm sạc
+
 $$ O $$: bắt đầu kho
+
+$$ O^' $$: kết thúc kho
+
