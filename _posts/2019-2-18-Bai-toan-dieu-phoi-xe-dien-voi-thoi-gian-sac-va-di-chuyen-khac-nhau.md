@@ -137,3 +137,8 @@ $$ Cr_k $$: Chi phí sạc xe k
 $$ Cp_k $$: Chi phí thưởng phạt của xe k
 $$ C_f $$: Chi phí xe cố định trên mỗi đơn vị
 $$ c_t $$: Chi phí thời gian cho mỗi đơn vị
+$$ c_c $$: chi phí sạc trên mỗi đơn vị
+$$ c_e $$: chi phí phạt đến sớm mỗi đơn vị
+$$ c_d $$: chi phí phạt chậm trễ mỗi đơn vị
+$$ F $$: một bộ trạm sạc
+$$ O $$: bắt đầu kho
