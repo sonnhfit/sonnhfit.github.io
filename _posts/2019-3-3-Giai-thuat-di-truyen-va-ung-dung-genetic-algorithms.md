@@ -4,8 +4,8 @@ title: Giải thuật di truyền và ứng dụng với python
 mathjax: true
 ---
 
-Chào các bạn mình là **Sơn Nguyễn** ở trong bài viết này mình sẽ hướng dẫn các bạn hiểu cũng như xây dựng một chương trình đơn giản với giải thuật di truyền. Để các bạn có thể ứng dụng giải thuật di truyền vào những bài toán cụ thể của các bạn. Trong các lĩnh vực khác của khoa học máy tính.
-
+Chào các bạn mình là **Sơn Nguyễn** ở trong bài viết này mình sẽ hướng dẫn các bạn hiểu cũng như xây dựng một chương trình đơn giản với giải thuật di truyền. Để các bạn có thể ứng dụng giải thuật di truyền vào những bài toán cụ thể của các bạn. 
+Trong các lĩnh vực khác của khoa học máy tính.
 
 # Mục lục
 + **Giới thiệu ngắn gọn về thuật toán di truyền**
