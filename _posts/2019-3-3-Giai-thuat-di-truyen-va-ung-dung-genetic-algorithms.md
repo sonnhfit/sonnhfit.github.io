@@ -6,14 +6,15 @@ mathjax: true
 
 Chào các bạn mình là **Sơn Nguyễn** ở trong bài viết này mình sẽ hướng dẫn các bạn hiểu cũng như xây dựng một chương trình đơn giản với giải thuật di truyền. Để các bạn có thể ứng dụng giải thuật di truyền vào những bài toán cụ thể của các bạn. Trong các lĩnh vực khác của khoa học máy tính.
 
-#Mục lục
+
+# Mục lục
 + **Giới thiệu ngắn gọn về thuật toán di truyền**
 + **Mục tiêu các vấn đề cần giải quyết**
 + **Dự án đầu tiên**
 + **Lập trình di truyền với python**
 + **Hello world**
-- **Đoán số của tôi**
-- **Đoán mật khẩu**
+    - **Đoán số của tôi**
+    - **Đoán mật khẩu**
 
 
 ## Giới thiệu ngắn gọn về thuật toán di truyền
@@ -23,3 +24,9 @@ Khi giải quyết vấn đề bằng thuật toán di truyền, thay vì yêu c
 
 
 ## Mục tiêu các vấn đề cần giải quyết
+Hãy tưởng tượng bạn có 10 cơ hội để đoán một số trong khoảng từ 1 đến 1000 và khi bạn đoán 1 số bạn sẽ nhận được phản hồi của máy tính hoặc người quản trò là **đúng** hoặc **sai**. Bạn có thể đoán số chính xác ? Khi mà chỉ có phản hồi là **Đúng** hoặc **sai** bạn không có cách nào để cải thiện dự đoán của bạn. Tất nhiên bạn không thể sử dụng giải thuật di truyền để giải quyết những bài toán như vậy. Một khía cạnh cơ bản của giải thuật di truyền là  là chúng ta phải cung cấp thông tin phán đoán đó có tốt hay không. Sự phản hồi ở đây được gọi là **thể lực** (fitness).
+
+
+Nếu thay vì đúng hoặc sai khi phản hồi bạn nhận được **cao hơn** hoặc **thấp hơn** cho thấy **số bạn cần đoán** và **số bạn đoán** cao hơn hay thấp hơn so với nhau. Bạn sẽ luôn tìm thấy được số đó vì 10 lần đoán là đủ để sử dụng thuật toán **tìm kiếm nhị phân** trong khoảng từ 1 đến 1000.
+
+Bây giờ hãy tưởng tượng nhân kích thước của vấn đề này để thay vì cố gắng tìm 1 số bạn đang cố gắng tìm một bộ 100 số, tất cả trong phạm vi từ 1 đến 1000. Bạn chỉ nhận được giá trị **fitness** (thể lực, độ tốt) cho biết **mức độ** của dãy số so với dãy số mong muốn. Mục tiêu của bạn sẽ là tối đa hoặc tối thiểu **fitness** Bạn sẽ tìm ra nhiều kết quả hoặc bạn có thể dạy cho giải thuật nên bỏ qua những bộ số nào để nó đạt tối thiểu
