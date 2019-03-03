@@ -4,12 +4,6 @@ title: Giải thuật di truyền và ứng dụng với python
 mathjax: true
 ---
 
-
-Chào các bạn mình là **Sơn** hôm trước mình được một bạn nữ nhờ nghiên cứu bài toán điều phối xe điện cho đồ án tốt nghiệp của bạn ấy. Do bạn ấy cười cũng xinh và tính dại gái của mình nổi lên và mình đã nhận lời nghiên cứu bài toán này. Đó là lý do bài viêt này ra đời.
-
-Vấn đề định tuyến, điều phối xe điện với thời gian sạc và thời gian di chuyển thay đổi được phát triển để giải quyết một số vấn đề vận hành
-xe điện chẳng hạn như giới hạn phạm vi và nhu cầu sạc của xe điện.
-
 Chào các bạn mình là **Sơn Nguyễn** ở trong bài viết này mình sẽ hướng dẫn các bạn hiểu cũng như xây dựng một chương trình đơn giản với giải thuật di truyền. Để các bạn có thể ứng dụng giải thuật di truyền vào những bài toán cụ thể của các bạn. 
 Trong các lĩnh vực khác của khoa học máy tính.
 
