@@ -160,7 +160,7 @@ Mình định nghĩa hàm này như sau:
 
 ```python
 def get_fitness(guess):
-    return sum(1 for expected, actual in zip(target, guess))
+    return sum(1 for expected, actual in zip(target, guess)
         if expected == actual)
 ```
 
@@ -194,5 +194,97 @@ def display(guess):
     timeDiff = datetime.datetime.now() - startTime
     fitness = get_fitness(guess)
     print("{}\t{}\t{}".format(guess, fitness, timeDiff))
+
+```
+
+#### Hàm main
+
+Hàm main bắt đầu bằng việc khởi tạo **bestParent** một cách ngẫu nhiên là hiển thị nó.
+
+```python
+
+random.seed()
+startTime = datetime.datetime.now()
+bestParent = generate_parent(len(target))
+bestFitness = get_fitness(bestParent)
+display(bestParent)
+
+```
+Cuối cùng là một vòng lặp
+
+- Tạo ra một dự đoán
+- Tính toán giá trị $$ fitness $$ cho dự đoán đó
+- So sánh $$ fitness $$ với giá trị $$ fitness $$ tốt nhất của các dự đoán trước đó
+- Giữ dự đoán với giá trị $$ fitness $$ tốt hơn
+
+Chu kỳ này lặp lại cho đến khi xảy ra điều kiện dừng, trong trường hợp này điều kiện dừng là khi chúng ta tìm được chữ **Hello World!**.
+
+```python
+
+
+while True:
+    child = mutate(bestParent)
+    childFitness = get_fitness(child)
+    if bestFitness >= childFitness:
+        continue
+    display(child)
+    if childFitness >= len(bestParent):
+        break
+    bestFitness = childFitness
+    bestParent = child
+
+```
+
+Toàn bộ đoạn code trên như sau:
+
+```python
+
+import random
+import datetime
+
+geneSet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!."
+target = "Hello World!"
+
+
+def generate_parent(length):
+    genes = []
+    while len(genes) < length:
+        sampleSize = min(length - len(genes), len(geneSet))
+        genes.extend(random.sample(geneSet, sampleSize))
+    return ''.join(genes)
+
+def get_fitness(guess):
+    return sum(1 for expected, actual in zip(target, guess) if expected == actual)
+
+def mutate(parent):
+    index = random.randrange(0, len(parent))
+    childGenes = list(parent)
+    newGene, alternate = random.sample(geneSet, 2)
+    childGenes[index] = alternate if newGene == childGenes[index] else newGene
+    return ''.join(childGenes)
+
+
+def display(guess):
+    timeDiff = datetime.datetime.now() - startTime
+    fitness = get_fitness(guess)
+    print("{}\t{}\t{}".format(guess, fitness, timeDiff))
+
+random.seed()
+startTime = datetime.datetime.now()
+bestParent = generate_parent(len(target))
+bestFitness = get_fitness(bestParent)
+display(bestParent)
+
+
+while True:
+    child = mutate(bestParent)
+    childFitness = get_fitness(child)
+    if bestFitness >= childFitness:
+        continue
+    display(child)
+    if childFitness >= len(bestParent):
+        break
+    bestFitness = childFitness
+    bestParent = child
 
 ```
