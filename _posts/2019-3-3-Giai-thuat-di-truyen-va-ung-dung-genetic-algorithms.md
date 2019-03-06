@@ -138,8 +138,32 @@ geneSet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!."
 target = "Hello World!"
 ```
 
+#### Tạo một dự đoán
 
+Tiếp theo thuật toán cần tạo ra một chuỗi ngẫu nhiên từ bộ gen
+```python
+import random
+def generate_parent(length):
+    genes = []
+    while len(genes) < length:
+        sampleSize = min(length - len(genes), len(geneSet))
+        genes.extend(random.sample(geneSet, sampleSize))
+    return ''.join(genes)
 
+```
 
+#### Fitness
 
+giá trị $$ fitness $$ mà thuật toán di truyền cung cấp là phản hồi duy nhất. Trong phần này giá trị $$ fitness $$ là tổng số chữ cái trùng khớp với mật khẩu.
 
+Mình định nghĩa hàm này như sau:
+
+```python
+def get_fitness(guess):
+    return sum(1 for expected, actual in zip(target, guess))
+        if expected == actual)
+```
+
+hàm trên sẽ trả về số ký tự ở đúng vị trí của dự đoán.
+
+#### Đột biến
