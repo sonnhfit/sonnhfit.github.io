@@ -103,3 +103,43 @@ Tại sao chúng ta sẽ không đoán 8, 9 hoặc 10 nữa ? Tất nhiên lý d
 
 > chú ý
 >> Khi các bạn chơi bài, những người chơi giỏi thường ghi nhớ những lá bài  đã được đánh. Và quan sát đối thủ cũng như biết được các tình huống có thể xảy ra với những lá bài chưa được đánh để có thể dành chiến thắng.
+
+Một thuật toán di truyền không biết cái nào là xấu hơn cái nào tốt hơn thì nó được coi là không có trí thông minh. Nó sẽ không học, và tiếp tục mắc sai lầm mỗi lần. Nếu không thể học được thì nó chỉ có thể giải quyết các vấn đề như được lập trình một cách tuần tự. Tuy nhiên mục đích của chúng ta là sử dụng nó để giải quyết các vấn đề mà con người sẽ đấu tranh để giải quyết hoặc không thể giải quyết được, làm thế nào các thuật toán di truyền có thể làm được điều đó ?
+
+Các thuật toán di truyền thăm dò ngẫu nhiên không gian bài toán kết hợp với các quá trình tiến hóa như đột biệt, lai chéo, để cải thiện dự đoán. Nhưng bởi vì thuật toán không sử dụng kinh nghiệm, phương pháp loại trừ, ... nên thuật toán sẽ thử những thứ con người sẽ không bao giờ nghĩ để thử. Do đó chúng ta có thể cải tiến thuật toán và giới hạn không gian bài toán để có những kết quả tiềm năng.
+
+### Đoán mật khẩu
+
+Bây giờ chúng ta sẽ áp dụng những thứ ở trên như thế nào cho việc đoán mật khẩu. Bắt đầu với một chuỗi chữ cái được tạo ngẫu nhiên sau đó thay đổi một chữ cái ngẫu nhiên tại một thời điểm cho đến khi tìm được chuỗi chữ cái là ```hello world!``` về mặt lý thuyết và thủ công không có tý gì gọi là thông minh ai cũng có thể nghĩ ra cái giải thuật này thì sẽ như sau:
+
+```
+
+_letters = [a..zA..Z !]
+target = "Hello World!"
+guess = lấy ngẫu nhiên 12 ký tự từ _letters
+while guess != target:
+  index = lấy ngẫu nhiên giá trị từ [0..độ dài của target]
+  guess[index] = lấy một ký tự ngẫu nhiên từ _letters
+
+```
+
+Nếu bạn thử viết điều này với ngôn ngữ lập trình yêu thích của bạn, bạn sẽ thấy rằng nó hoạt động kém hiệu quả hơn so với việc chơi trò đoán số và thuật toán không thể biết nó đoán tốt hơn hay xấu hơn.
+
+Một giải pháp là giúp nó đoán đúng bằng cách cho nó biết có bao nhiêu chữ cái trong số đoán là đúng vị trí. Ví dụ **"World!Hello?"** sẽ nhận được kết quả là 2 vì chỉ có 2 chữ cái đúng vị trí so với từ **"Hello World!"** (chữ l) 2 ở đây được gọi là giá trị $$ fitness $$.
+
+### Chương trình đầu tiên
+
+#### Gen
+
+Để bắt đầu thuật toán di truyền cần một bộ gen sử dụng để xây dựng dự đoán. Đối với dự án này sẽ là một bộ chung chữ cái. Nó cũng cần một mật khẩu đích để đoán.
+
+```python
+geneSet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!."
+target = "Hello World!"
+```
+
+
+
+
+
+
