@@ -167,3 +167,32 @@ def get_fitness(guess):
 hàm trên sẽ trả về số ký tự ở đúng vị trí của dự đoán.
 
 #### Đột biến
+
+Chúng ta có hàm đột biến gen này để giải quyết vấn đề nếu một Gen mới (newGen) được chọn ngẫu nhiên trùng với gen mà chúng ta đã xem xét.
+Điều này sẽ giúp chúng ta giảm thiểu việc tính toán không cần thiết. 
+Và đây cũng là cách mà chúng ta có thể tạo ra một dự đoán mới bằng cách thay đổi dự đoán hiện tại.
+
+```python
+def mutate(parent):
+    index = random.randrange(0, len(parent))
+    childGenes = list(parent)
+    newGene, alternate = random.sample(geneSet, 2)
+    childGenes[index] = alternate if newGene == childGenes[index] else newGene
+    return ''.join(childGenes)
+
+```
+
+Việc triển khai này chuyển đổi mỗi chuỗi parent thành một mảng với hàm **list(parent)**, sau đó thay thế 1 chữ cái trong mảng bằng cách chọn ngẫu nhiên từ geneSet.
+
+#### Hiển thị
+
+Tiếp theo, điều quan trọng là phải theo dõi những gì đang xả ra.
+
+```python
+import datetime
+def display(guess):
+    timeDiff = datetime.datetime.now() - startTime
+    fitness = get_fitness(guess)
+    print("{}\t{}\t{}".format(guess, fitness, timeDiff))
+
+```
