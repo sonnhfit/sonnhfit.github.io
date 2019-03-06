@@ -41,4 +41,27 @@ Các thuật toán di truyền và lập trình di truyền rất tốt trong vi
 
 ## Dự án đầu tiên
 
-Hãy tưởng tượng bạn nhận được một yêu cầu đoán mật khẩu gồm 3 chữ cái. Bạn mong muốn nhận được sự phản hồi là gì về kết quả mà bạn đã đoán? Ví dụ: Nếu mật khẩu là ***'aaa'*** và bạn đoán là **'abc'** giá trị $$ fitness $$ nên là gì ? Sẽ phải có một phản hồi đơn giản như: có bao nhiêu chữ cái trong dự đoán của bạn đúng. ví dụ: **'bab'** có một chữ cái đúng, **'zap'** cũng đúng nhưng có một giá trị $$ fitness $$ kém hơn so với giá trị $$ fitness $$ của **aaa**  giá trị $$ fitness $$ ở đây có thể là khoảng cách giữa 2 chuỗi khi sắp sếp theo bảng chữ cái, chữ **abc** gần với **aaa** hơn so với **zap** đây là một vấn đề mà các bạn cần quan tâm khi bắt đầu xây dựng giải pháp cho vấn đề của bạn. Giải thuật di truyền rất tốt trong việc tìm giải pháp tốt cho các vấn đề với không gian tìm kiếm lớn vì chúng có thể nhanh chóng tìm thấy các phần dự đoán cải thiện giá trị $$ fitness $$ để có giải pháp tốt hơn
+Hãy tưởng tượng bạn nhận được một yêu cầu đoán mật khẩu gồm 3 chữ cái. Bạn mong muốn nhận được sự phản hồi là gì về kết quả mà bạn đã đoán? Ví dụ: Nếu mật khẩu là ***'aaa'*** và bạn đoán là **'abc'** giá trị $$ fitness $$ nên là gì ? Sẽ phải có một phản hồi đơn giản như: có bao nhiêu chữ cái trong dự đoán của bạn đúng. ví dụ: **'bab'** có một chữ cái đúng, **'zap'** cũng đúng nhưng có một giá trị $$ fitness $$ kém hơn so với giá trị $$ fitness $$ của **aaa**  giá trị $$ fitness $$ ở đây có thể là khoảng cách giữa 2 chuỗi khi sắp sếp theo bảng chữ cái, chữ **abc** gần với **aaa** hơn so với **zap** đây là một vấn đề mà các bạn cần quan tâm khi bắt đầu xây dựng giải pháp cho vấn đề của bạn. Giải thuật di truyền rất tốt trong việc tìm giải pháp tốt cho các vấn đề với không gian tìm kiếm lớn vì chúng có thể nhanh chóng tìm thấy các phần dự đoán cải thiện giá trị $$ fitness $$ để có giải pháp tốt hơn.
+
+Trong dự đoán trên giá trị $$ fitness $$ trả về số lượng chữ cái khớp với mật khẩu. Điều này có nghĩa là 'abc', 'bab' và 'zba' đều trả về giá trị là 1 vì mỗi cái đều có một chữ cái đúng. Thuật toán di truyền có thể kết hợp 2 chữ cái đầu tiên của 'abc' với chữ cái cuối cùng của 'zba' để tạo ra dự đoán 'aba'
+
+Chúng ta sẽ xem xét thêm về dự án dò mật khẩu trong phần này và tiếp tục khám phá nhiều dự án khác nhau để tìm hiểu các cách khác nhau để giải quyết vấn đề với giải thuật di truyền.
+
+## Lập trình di truyền với python
+
+Lý do tôi chọn python vì nó đơn giản và dễ học nếu bạn từng học lập trình trước đó hay chưa học thì nó cũng sẽ dễ dàng với bạn vì python là một ngôn ngữ trong sáng. Gần với ngôn ngữ tự nhiên.
+
+## Hello world
+
+### Đoán số của tôi
+
+Hãy bắt đầu bằng cách học một chút về các thuật toán di truyền. Chúng ta có một trò chơi đơn giản dành cho 2 người, trong đó một người chọn một số bí mật từ 1 đến 10 và người còn lại phải đoán:
+
+```
+
+Nó là số  2? Sai
+Nó là số 3? Sai
+Nó là số 7? Sai
+Nó là số 1? Đúng
+
+```
