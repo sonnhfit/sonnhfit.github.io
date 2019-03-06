@@ -65,3 +65,41 @@ Nó là số 7? Sai
 Nó là số 1? Đúng
 
 ```
+
+Nếu câu trả lời là đúng hoặc sai thì nó vẫn thực hiện khả thi trong khoảng từ 1 đến 10 nhưng nhanh chóng trở chán nản hơn khi chúng ta tăng phạm vi lên 1 - 100 hoặc 1 - 1000. Bởi vì chúng ta không thể cải thiện dự đoán. Điều này không khác gì việc chúng ta đoán một cách lần lượt từ 1 đến hết khá là mất thời gian và công sức.
+
+```
+Nó là số  1? Sai
+Nó là số 2? Sai
+Nó là số 3? Sai
+Nó là số 4? Sai
+Nó là số 5? Sai
+Nó là số 6? Sai
+...
+
+```
+
+Để trò chơi chở nên thú vị hơn chúng ta sẽ nói **cao hơn** hoặc **thấp hơn**.
+
+```
+1? Cao hơn
+7? thấp hơn
+6? thấp hơn
+5? thấp hơn
+4? Đúng
+
+```
+
+Điều này có thể khá thú vị trong một khoảng thời gian và với phạm vi từ 1 - 10 nhưng ngay sau đó chúng ta tăng phạm từ 1 - 100. Bởi vì đây là một trò chơi thi xem ai đoán giỏi hơn. Tại thời điểm này người nào có chiến lược đoán hiệu quả nhất sẽ chiến thắng.
+
+Tuy nhiên, một điều mà mọi người thường làm là sử dụng phương pháp loại trừ. Ví dự như sau:
+
+```
+1? Cao hơn
+7? Thấp hơn
+```
+
+Tại sao chúng ta sẽ không đoán 8, 9 hoặc 10 nữa ? Tất nhiên lý do là chúng ta đã biết nó là những con số lớn hơn 7.
+
+> chú ý
+>> Khi các bạn chơi bài, những người chơi giỏi thường ghi nhớ những lá bài  đã được đánh. Và quan sát đối thủ cũng như biết được các tình huống có thể xảy ra với những lá bài chưa được đánh để có thể dành chiến thắng.
