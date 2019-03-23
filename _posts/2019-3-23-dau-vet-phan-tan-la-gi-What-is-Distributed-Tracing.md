@@ -1,3 +1,8 @@
+---
+layout: post
+title: Th
+---
+
 ## Theo dõi phân tán là gì ?
 
 Theo dõi phân tán, còn được gọi là theo dõi request phân tán là một phương pháp được sử dụng để lập hồ sơ và giám sát các ứng dụng 
