@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Th
+title: Opentracing Theo dõi phân tán là gì ? 
 ---
 
 Theo dõi phân tán là gì ?
