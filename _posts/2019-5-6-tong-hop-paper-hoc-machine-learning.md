@@ -5,8 +5,9 @@ title: Tổng hợp tài liệu mà mình đọc để nghiên cứu machine lea
 Tài liệu này mình sưu tầm và copy ở đâu đó trên mạng hình như trong 1 tweet trên tweeter của ai cũng chả nhớ nhưng mà họ có tổng hợp
 rất nhiều paper và tài liệu quan trọng mà các bạn làm AI phải biết .
 
-ngoài ra các bạn có thể tham khảo tài liệu của  
-https://scikit-learn.org/stable/documentation.html
+ngoài ra các bạn có thể tham khảo tài liệu của  [SKlearn](https://scikit-learn.org/stable/documentation.html)
+
+Hoặc của [tensorflow](https://www.tensorflow.org/overview)
 
 - Machine Learning
 - Deep Learning
