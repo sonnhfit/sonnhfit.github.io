@@ -7,7 +7,7 @@ rất nhiều paper và tài liệu quan trọng mà các bạn làm AI phải b
 
 ngoài ra các bạn có thể tham khảo tài liệu của  [SKlearn](https://scikit-learn.org/stable/documentation.html)
 
-Hoặc của [tensorflow](https://www.tensorflow.org/overview)
+Hoặc của [tensorflow](https://www.tensorflow.org/overview) Link nào die thì các bạn c
 
 - Machine Learning
 - Deep Learning
