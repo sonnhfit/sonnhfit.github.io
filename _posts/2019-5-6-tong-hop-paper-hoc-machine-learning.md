@@ -1,4 +1,7 @@
-## Tổng hợp tài liệu mà mình đọc để nghiên cứu machine learning 
+---
+layout: post
+title: Tổng hợp tài liệu mà mình đọc để nghiên cứu machine learning ? 
+---
 Tài liệu này mình sưu tầm và copy ở đâu đó trên mạng hình như trong 1 tweet trên tweeter của ai cũng chả nhớ nhưng mà họ có tổng hợp
 rất nhiều paper và tài liệu quan trọng mà các bạn làm AI phải biết .
 
