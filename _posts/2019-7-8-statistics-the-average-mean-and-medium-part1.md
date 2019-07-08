@@ -49,3 +49,6 @@ Các bạn có thể quan sát ảnh sau
 
 ![central tendency mode ](https://statistics.laerd.com/statistical-guides/img/mode-1.png)
 
+![Central tendency mode](https://statistics.laerd.com/statistical-guides/img/mode-1a.png)
+
+
