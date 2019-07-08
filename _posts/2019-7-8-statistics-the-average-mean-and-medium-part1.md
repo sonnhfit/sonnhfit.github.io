@@ -16,5 +16,5 @@ $$ \frac{1 + 1 + 2 + 3 + 4}{5} = \frac{11}{5} = 2.2 $$
 import numpy as np
 np.mean([1, 1, 2, 3, 4])
 
-# Kết quẩ :  2.2
+# Result :  2.2
 ```
