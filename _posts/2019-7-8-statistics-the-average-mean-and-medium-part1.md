@@ -10,4 +10,11 @@ Các các biểu diễn central tendency cơ bản
 
 ### Mean (arithmetic)
 
-$$ \frac{1 + 1 + 2 + 3 + 4}{5} = \frac{11}{5} $$
+$$ \frac{1 + 1 + 2 + 3 + 4}{5} = \frac{11}{5} = 2.2 $$
+
+```python 
+import numpy as np
+np.mean([1, 1, 2, 3, 4])
+
+# Kết quẩ :  2.2
+```
