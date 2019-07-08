@@ -41,3 +41,11 @@ median = 3.5
 np.median([1, 2, 3, 4, 4, 5])
 
 ```
+
+## Mode 
+
+Mode là số có tần xuất xuất hiện nhiều nhất trong dãy số, nếu một dãy số có nhiều phần tử có tần xuất xuất hiện bằng nhau thì người ta thường lấy số có giá trị nhỏ nhất.
+Các bạn có thể quan sát ảnh sau 
+
+![central tendency mode ](https://statistics.laerd.com/statistical-guides/img/mode-1.png)
+
