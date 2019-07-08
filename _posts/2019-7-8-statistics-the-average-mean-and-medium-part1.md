@@ -23,7 +23,21 @@ np.mean([1, 1, 2, 3, 4])
 
 ### Median 
 
-Median 
+Median là giá trị ở giữa khi chúng ta sắp sếp dãy số 
 ```
-  1 2 | 3 | 4 4
+  1 2 | 3 | 4 4 
+  median = 3
+```
+
+Với trường hợp dãy số có số lượng phần tử chẵn không tìm đc giá trị ở giữa ta có thể lấy kết quả trung bình của 2 số ở giữa ví dụ 
+
+```
+1 2 | 3 4 | 4 5
+median = 3.5 
+```
+Để tính median trong numpy ta thực hiện như sau 4
+
+```python 
+np.median([1, 2, 3, 4, 4, 5])
+
 ```
