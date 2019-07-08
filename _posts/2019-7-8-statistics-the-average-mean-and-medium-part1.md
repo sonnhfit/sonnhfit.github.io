@@ -51,4 +51,15 @@ Các bạn có thể quan sát ảnh sau
 
 ![Central tendency mode](https://statistics.laerd.com/statistical-guides/img/mode-1a.png)
 
+Để tìm mode trong 1 numpy array ta có thể làm như sau 
+
+```python 
+import numpy as np
+from scipy import stats
+a = np.array([1, 1, 1, 2, 3 ,4 ,4 ,4])
+m = stats.mode(a)
+print(m.mode[0])
+# Kết quả: 1
+```
+Mình vừa giới thiệu cho các bạn về **central tendency** trong statistics chúc các bạn học vui vẻ.
 
