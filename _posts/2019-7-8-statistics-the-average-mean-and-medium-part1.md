@@ -10,6 +10,8 @@ Các các biểu diễn central tendency cơ bản
 
 ### Mean (arithmetic)
 
+Là cách đo phổ biến của central tendency 
+
 $$ \frac{1 + 1 + 2 + 3 + 4}{5} = \frac{11}{5} = 2.2 $$
 
 ```python 
@@ -17,4 +19,11 @@ import numpy as np
 np.mean([1, 1, 2, 3, 4])
 
 # Result :  2.2
+```
+
+### Median 
+
+Median 
+```
+  1 2 **3** 4 4
 ```
