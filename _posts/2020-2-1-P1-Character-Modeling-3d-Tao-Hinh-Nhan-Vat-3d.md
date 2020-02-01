@@ -14,3 +14,9 @@ Ví dụ: Bạn cần thiết kế một nhân vật cho 1 bộ phim hoạt hìn
 Dưới đây mình sẽ hướng dẫn các bạn thực hiện nó trong blender
 
 # Những vấn đề thiết kế cơ bản 
+
+- Hình dạng của nhân vật hơi tròn tròn thân thiện
+- Một cặp mắt to khiến nhân vật đáng yêu và biểu cảm
+- Mũ cánh quạt và áo sọc khiến nhân vật trở lên ngớ ngẩn
+
+![ Hình ảnh nhân vật thiết kế 2d]({{ site.baseurl }}/images/gamedev/model1.png "Hình ảnh nhân vật thiết kế 2d")
