@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Character modeling 3d tạo hình nhân vật 3d để làm phim hoặc làm game
 ---
