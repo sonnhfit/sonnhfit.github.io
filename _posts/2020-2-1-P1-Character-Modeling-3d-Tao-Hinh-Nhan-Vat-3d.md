@@ -20,3 +20,17 @@ Dưới đây mình sẽ hướng dẫn các bạn thực hiện nó trong blend
 - Mũ cánh quạt và áo sọc khiến nhân vật trở lên ngớ ngẩn
 
 ![ Hình ảnh nhân vật thiết kế 2d]({{ site.baseurl }}/images/gamedev/model1.png "Hình ảnh nhân vật thiết kế 2d")
+
+# Animated 
+
+Những yếu tối dưới đây cần thiết để bạn có thể cấu hình cho khung sương của nhân vật hoạt hình sau này.
+
+- Bản vẽ người của bạn nên ở tư thế chữ T (hai tay giang ngang)
+- Nên cong nhẹ ở đầu gối và cánh tay
+- Ngón tay và chân phải được xoè ra
+- Gương mặt phải ở một cảm xúc trống rỗng ( vô cảm không cảm xúc á)
+
+Dưới dây là hình mẫu nhân vật hình chữ T cho các bạn xem
+
+![ Hình ảnh mẫu nhân vật thiết kế 3d]({{ site.baseurl }}/images/gamedev/hinhmau.png "Hình ảnh mẫu nhân vật thiết kế 3d")
+
