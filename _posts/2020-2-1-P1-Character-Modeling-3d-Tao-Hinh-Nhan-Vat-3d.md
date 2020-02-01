@@ -34,3 +34,9 @@ Dưới dây là hình mẫu nhân vật hình chữ T cho các bạn xem
 
 ![ Hình ảnh mẫu nhân vật thiết kế 3d]({{ site.baseurl }}/images/gamedev/hinhmau.png "Hình ảnh mẫu nhân vật thiết kế 3d")
 
+Các bạn chú ý đối với mô hình của chúng ta mặt bên của mô hình và mặt trước của mô hình phải có sự tương ứng nhau. (Bạn nào học môn vẽ kỹ thuật hoặc môn công nghệ hồi cấp 3 chắc các bạn sẽ tưởng tượng được điều này) Đại loại nó phải có sự tương ứng giữa mặt bên và mặt trước.
+
+![ Hình ảnh mẫu nhân vật thiết kế 3d]({{ site.baseurl }}/images/gamedev/tuongung.png "Hình ảnh mẫu nhân vật thiết kế 3d")
+
+# Modeling
+
