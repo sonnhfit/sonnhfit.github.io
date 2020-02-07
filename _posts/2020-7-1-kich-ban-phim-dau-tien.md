@@ -18,7 +18,10 @@ Chạy chiếc xe phân khối lớn màu đen. Anh chạy xe về nhà.
 * Trong quá trình đó, lời của SƠN tự giới thiệu 
 
 * SƠN: Tôi là giám đốc công nghệ của 1 công ty phần mềm. Đã 4 năm rồi tôi không hẹn 
-hò với ai kể từ khi kết thúc cuộc tình đâù tiên.
+hò với ai kể từ khi kết thúc cuộc tình đâù tiên. Cuộc sống độc thân với tôi vẫn ổn tôi tập chung toàn bộ thời gian vào công việc. Và cũng có 1 chút thành công nhất định. 
 
-3. 
+3. NỘI - NHÀ RIÊNG - Mở cửa 
+SƠN mở cửa bước vào, cánh cửa đóng sập lại 
+Chuyển cảnh balo vất lên giường, mở cửa phòng tắm âm thanh nước qua cửa nhà tắm.
 
+4. 
