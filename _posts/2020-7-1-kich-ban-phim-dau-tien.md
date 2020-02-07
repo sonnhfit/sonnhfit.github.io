@@ -24,4 +24,6 @@ hò với ai kể từ khi kết thúc cuộc tình đâù tiên. Cuộc sống 
 SƠN mở cửa bước vào, cánh cửa đóng sập lại 
 Chuyển cảnh balo vất lên giường, mở cửa phòng tắm âm thanh nước qua cửa nhà tắm.
 
-4. 
+4. NGOAỊ - ĐƯỜNG NGÕ - Nhiều quán tạp hoá, quán ăn 
+Sơn đi bộ dọc con ngõ tìm 1 quán ăn, dòng xe đi lại tiếng còi xe, ánh đèn,
+SƠN Dừng lại trước quán bánh mỳ 2 tầng, 
