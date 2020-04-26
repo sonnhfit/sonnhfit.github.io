@@ -11,7 +11,7 @@ Bạn ấy có khá nhiều điểm chung với mình. Bạn ấy đam mê âm n
 
 # Mình thích bạn ấy
 Bạn ấy đáng yêu cá tính mỗi tội hay thích điều khiển ý người khác theo ý mình. Mình ghét điều này thực sự nên mình hay cãi nhau với nó nhưng mà mình có vẻ đuối lý hơn vì nó thông minh nên toàn cầm đằng chuôi nhưng mà mình đếch sợ vì mình cũng thông minh mà. Có 1 lần mình nhớ nó bắt mình viết lại đoạn nhạc mà không viết lại thì nó không hát nữa. Cay lắm nhưng mà thôi đành chiều vậy. Nó có chia sẻ mình xem 1 bộ phim về âm nhạc 2 main chính 1 đứa viết nhạc 1 đứa viết lời giống hệt như tụi mình trừ mỗi cái đoạn chúng nó yêu nhau.
-Mình không hiểu tại sao mình thích bạn ấy. Thực ra mình có những mối quan hệ khác tốt hơn bạn ấy nhiều và họ thích mình mặc dù mình khá nhạt nhẽo với họ. Tốt hơn về mọi mặt xinh hơn ngoan hiền nghe lời hơn nhiều nhưng mà mình vẫn thích bạn ấy. Đúng là chuyện tình cảm là thứ mà không thể đoán trước được. Vì mình không nghĩ là mình thích bạn ấy cho đến khi không nhắn tin 1 vài ngày do 1 vài chuyện sảy ra. =)) có thể mình bị nghiện bạn ấy
-Những ngày nghỉ dịch thực sự bản thân đã bị down nhiều làm việc không còn hiệu quả như trước nữa. Mình cần có 1 chiến lược làm việc hiệu quả hơn. Học hành chăm chỉ hơn
+Mình không hiểu tại sao mình thích bạn ấy. Thực ra mình có những mối quan hệ khác tốt hơn bạn ấy nhiều và họ thích mình mặc dù mình khá nhạt nhẽo với họ. Tốt hơn về mọi mặt xinh hơn ngoan hiền nghe lời hơn nhiều nhưng mà mình vẫn thích bạn ấy, vì mình thấy nc với mấy bạn kia không hứng thú. Đúng là chuyện tình cảm là thứ mà không thể đoán trước được. Vì mình không nghĩ là mình thích bạn ấy cho đến khi không nhắn tin 1 vài ngày do 1 vài chuyện sảy ra. =)) có thể mình bị nghiện bạn ấy. Mình hay bị bệnh so sánh nhưng mà dạo này hết rồi mình chả quan tâm chuyện so sánh nữa.
+Những ngày nghỉ dịch thực sự bản thân đã bị down nhiều làm việc không còn hiệu quả như trước nữa. Mình cần có 1 chiến lược làm việc hiệu quả hơn. Học hành chăm chỉ hơn.
 
 
