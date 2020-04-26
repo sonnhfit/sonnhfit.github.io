@@ -16,4 +16,9 @@ Những ngày nghỉ dịch thực sự bản thân đã bị down nhiều làm 
 
 # Bố mẹ bạn ấy không thích mình 
 
-Mình quan sát qua thái độ mình  biết bố mẹ bạn  ấy không thích mình có thể sợ bạn ấy bị lợi dụng hay gì nhưng mà thực sự là mình pro và mình không sợ gì hết =)))  Đùa chứ mỗi lần bọn mình call cho nhau là y rằng mình nghe thấy tiếng bố mẹ bạn ấy nói vọng vào. Mình k hiểu nhưng mà sao có thể cấm nhỉ? ví dụ khi bạn ấy ở mỹ thì sao có thể cấm.
+Mình quan sát qua thái độ mình  biết bố mẹ bạn  ấy không thích mình có thể sợ bạn ấy bị lợi dụng hay gì nhưng mà thực sự là mình pro và mình không sợ gì hết =)))  Đùa chứ mỗi lần bọn mình call cho nhau là y rằng mình nghe thấy tiếng bố mẹ bạn ấy nói vọng vào. Mình k hiểu nhưng mà sao có thể cấm nhỉ? ví dụ khi bạn ấy ở mỹ thì sao có thể cấm. đúng là khó hiểu thật sự =))))
+
+# Mình có động lực hơn 
+
+Có thể do bạn ấy giỏi hơn mình nên mình có động lực hơn khi nói chuyện với bạn ấy 
+Mình từng có ý định cày quốc đi mỹ nhưng sau đó mình ra mở công ty và nó bắt đầu trìm xuống. Nhưng giờ mình có động lực đi học lại tiếng anh thực sự lớn. Cảm ơn em vì đã cho anh động lực 
