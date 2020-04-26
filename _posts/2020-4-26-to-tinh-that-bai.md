@@ -14,4 +14,6 @@ Bạn ấy đáng yêu cá tính mỗi tội hay thích điều khiển ý ngư�
 Mình không hiểu tại sao mình thích bạn ấy. Thực ra mình có những mối quan hệ khác tốt hơn bạn ấy nhiều và họ thích mình mặc dù mình khá nhạt nhẽo với họ. Tốt hơn về mọi mặt xinh hơn ngoan hiền nghe lời hơn nhiều nhưng mà mình vẫn thích bạn ấy, vì mình thấy nc với mấy bạn kia không hứng thú. Đúng là chuyện tình cảm là thứ mà không thể đoán trước được. Vì mình không nghĩ là mình thích bạn ấy cho đến khi không nhắn tin 1 vài ngày do 1 vài chuyện sảy ra. =)) có thể mình bị nghiện bạn ấy. Mình hay bị bệnh so sánh nhưng mà dạo này hết rồi mình chả quan tâm chuyện so sánh nữa.
 Những ngày nghỉ dịch thực sự bản thân đã bị down nhiều làm việc không còn hiệu quả như trước nữa. Mình cần có 1 chiến lược làm việc hiệu quả hơn. Học hành chăm chỉ hơn.
 
+# Bố mẹ bạn ấy không thích mình 
 
+Mình quan sát qua thái độ mình  biết bố mẹ bạn  ấy không thích mình có thể sợ bạn ấy bị lợi dụng hay gì nhưng mà thực sự là mình pro và mình không sợ gì hết =)))
