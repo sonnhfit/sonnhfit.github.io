@@ -16,4 +16,4 @@ Những ngày nghỉ dịch thực sự bản thân đã bị down nhiều làm 
 
 # Bố mẹ bạn ấy không thích mình 
 
-Mình quan sát qua thái độ mình  biết bố mẹ bạn  ấy không thích mình có thể sợ bạn ấy bị lợi dụng hay gì nhưng mà thực sự là mình pro và mình không sợ gì hết =)))
+Mình quan sát qua thái độ mình  biết bố mẹ bạn  ấy không thích mình có thể sợ bạn ấy bị lợi dụng hay gì nhưng mà thực sự là mình pro và mình không sợ gì hết =)))  Đùa chứ mỗi lần bọn mình call cho nhau là y rằng mình nghe thấy tiếng bố mẹ bạn ấy nói vọng vào. Mình k hiểu nhưng mà sao có thể cấm nhỉ? ví dụ khi bạn ấy ở mỹ thì sao có thể cấm.
