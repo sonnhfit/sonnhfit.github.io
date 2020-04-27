@@ -27,4 +27,4 @@ Mình từng có ý định cày quốc đi mỹ nhưng sau đó mình ra mở c
 
 # 2 đường thẳng cắt nhau  
 
-Em à. Dù sao thì chúng ta đã có duyên gặp nhau, quen nhau, đã thực sự là rất vui rồi. Anh rất tự hào khi  quen em.  Anh không hiểu sao bị em từ chối mà anh không thấy đau đơn gì hết :3
+Em à. Dù sao thì chúng ta đã có duyên gặp nhau, quen nhau, đã thực sự là rất vui rồi. Anh rất tự hào khi  quen em.  Anh không hiểu sao bị em từ chối mà anh không thấy đau đớn gì hết :3 Nhưng mà anh vẫn chắc chắn về tình cảm của mình.
