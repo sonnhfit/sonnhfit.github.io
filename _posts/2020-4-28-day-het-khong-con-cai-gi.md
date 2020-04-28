@@ -193,16 +193,16 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Mỗi buổi kéo dài 1.5 giờ đến 2 giờ (tối thiểu 1.5 giờ ) tuỳ hôm mình có thể dạy thêm 
 
 # ĐĂNG KÝ BẰNG CÁCH CHUYỂN KHOẢN CHO MÌNH NGAY 
-Nhớ nhắn tin cho mình  số điện thoại của bạn và email qua: 0818000098 số  điện thoại  mình  
-- Ngân hàng VIETTINBANK : 108002685772
-HOTEN: NGUYEN HUU SON
+Nhớ nhắn tin cho mình  số điện thoại của bạn và email qua: **0818000098** số  điện thoại  mình  
+- Ngân hàng VIETTINBANK : **108002685772**
+HOTEN: **NGUYEN HUU SON**
 Chi nhánh quản lý TK: CN HOAN KIEM - HOI SO
 
-- Ngân hàng Vietcombank : 0491000129303
-HOTEN: NGUYEN HUU SON
-- Ngân hàng TECHCOMBANK : 19033323084013
-HOTEN: NGUYEN HUU SON
-MOMO: 0337865385
+- Ngân hàng Vietcombank : **0491000129303**
+HOTEN: **NGUYEN HUU SON**
+- Ngân hàng TECHCOMBANK : **19033323084013**
+HOTEN: **NGUYEN HUU SON**
+- MOMO: **0337865385**
 
 
 
