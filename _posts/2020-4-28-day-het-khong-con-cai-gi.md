@@ -192,7 +192,7 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Tuần học 2 buổi vào buổi tối, học đến bao h làm được product thì thôi =))) tối thiểu là 30 buổi nhé 
 - Mỗi buổi kéo dài 1.5 giờ đến 2 giờ (tối thiểu 1.5 giờ ) tuỳ hôm mình có thể dạy thêm 
 
-# ĐĂNG KÝ BẰNG CÁCH CHUYỂN KHOẢN CHO MÌNH NGAY 
+# ĐĂNG KÝ BẰNG CÁCH CHUYỂN KHOẢN CHO MÌNH NGAY (khoá học 5/5/2020 bắt đầu)
 Nhớ nhắn tin cho mình  số điện thoại của bạn và email qua: **0818000098** số  điện thoại  mình  
 - Ngân hàng VIETTINBANK : **108002685772**
 HOTEN: **NGUYEN HUU SON**
