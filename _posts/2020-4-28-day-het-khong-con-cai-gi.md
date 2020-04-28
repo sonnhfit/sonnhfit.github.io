@@ -44,4 +44,10 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 
 # Lập trình hướng đối tượng (Lớp (Class) và đối tượng (Object))
 
+- Giới thiệu về lập trình hướng đối tượng: Data Abstraction, Encapsulation, Modularity, Polymorphism, Inheritance. 
+- Tìm hiểu về Class và Object, Method Variables và Methods. 
+- Hàm khởi tạo: Constructor Sự kế thừa (Inheritance). 
+- Tính đa hình (Polymorphism) 
+- Thực hành tạo các Class và khai báo Object gọi phương thức ra xử lý
+
 
