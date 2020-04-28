@@ -52,8 +52,15 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 
 # Lập trình hướng đối tượng (Tiếp)
 
-Tính kế thừa, đa kế thừa trong Python. 
-Phạm vi truy nhập: public, private. 
-Tính đa hình (Polymorphism). 
-Trừu tượng (Abstraction) và giao diện (Interface). 
-Cấu trúc lại chương trình sử dụng đặc tính kế thừa, đa hình, trừu tượng.
+- Tính kế thừa, đa kế thừa trong Python. 
+- Phạm vi truy nhập: public, private. 
+- Tính đa hình (Polymorphism). 
+- Trừu tượng (Abstraction) và giao diện (Interface). 
+- Cấu trúc lại chương trình sử dụng đặc tính kế thừa, đa hình, trừu tượng.
+
+# Làm việc với File (I/O)
+- Tổng quan về ngoại lệ. 
+- Check Exception và Uncheck Exception. Throwing Exception. 
+- Kỹ thuật debug, kiểm soát ngoại lệ. The file object attributes. 
+- File & Directory Related Methods. 
+- Các kỹ thuật đọc ghi file hiệu quả với chương trình.
