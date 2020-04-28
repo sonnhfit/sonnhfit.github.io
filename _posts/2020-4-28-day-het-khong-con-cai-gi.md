@@ -171,7 +171,7 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 
 # 29 Thêm module machine learning vào website như thế nào 
 
-# 30  Cách lập công ty và gọi vốn  
+# 30  Cách lập công ty và gọi vốn từ số 0
 - Quy trình thiết kế project và tính toán tính khả thi 
 - Đi gọi vốn ở đâu, gặp ai gọi vốn, gọi vốn như thế nào.
 - Những vấn đề gặp phải khi đi lập công ty, ban đầu cần bao nhiêu tiền ...
@@ -192,6 +192,18 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Tuần học 2 buổi vào buổi tối, học đến bao h làm được product thì thôi =))) tối thiểu là 30 buổi nhé 
 - Mỗi buổi kéo dài 1.5 giờ đến 2 giờ (tối thiểu 1.5 giờ ) tuỳ hôm mình có thể dạy thêm 
 
-# ĐĂNG KÝ BẰNG CÁCH CHUYỂN KHOẢN CHO MÌNH NGAY  
+# ĐĂNG KÝ BẰNG CÁCH CHUYỂN KHOẢN CHO MÌNH NGAY 
+Nhớ nhắn tin cho mình  số điện thoại của bạn và email qua: 0818000098 số  điện thoại  mình  
+- Ngân hàng VIETTINBANK : 108002685772
+HOTEN: NGUYEN HUU SON
+Chi nhánh quản lý TK: CN HOAN KIEM - HOI SO
+
+- Ngân hàng Vietcombank : 0491000129303
+HOTEN: NGUYEN HUU SON
+- Ngân hàng TECHCOMBANK : 19033323084013
+HOTEN: NGUYEN HUU SON
+MOMO: 0337865385
+
+
 
 
