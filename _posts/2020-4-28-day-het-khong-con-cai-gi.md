@@ -5,7 +5,15 @@ title:  Chia sẻ hết những gì mình biết
 
 Chào các bạn mình là Sơn hiện tại mình đang là đồng sáng lập và CTO của 1 công ty công nghệ tên là VNROBOT website: vnrobot.vn 
 Size công ty mình là công ty startup khoảng 20 người.
-Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học lập trình web với python để chia sẻ với .
+Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học lập trình web với python để chia sẻ với các bạn những gì mình biết để mà mình có thể build 1 công ty công nghệ từ 2 bàn tay trắng. Mình rất ít khi có khóa học trực tiếp như vậy mình hi vọng sau khoá học mình có thể có những đồng đội tuyệt vời.
+
+# LỢI ÍCH KHI THAM GIA KHOÁ HỌC 
+- Biết cách xây dựng 1 product từ A-Z bằng python(lý do dùng python vì nó nhanh ra sản phẩm )
+- Biết cách quản lý team dự án 
+- Được mình chia sẻ source code 1 số dự án đã làm 
+- Được mình chia sẻ 1 số khoá học online mà mình xây ví dụ như khoá python cơ bản và machine learning để học thêm 
+- Mình mất rất nhiều thời gian để tích luỹ và tìm hiểu, mình chia sẻ lại hết trong 1 khoá học thôi 
+- Kinh nghiệm lập công ty, startup từ con số 0 chia sẻ những điều nhỏ nhất 
 
 
 
@@ -93,6 +101,7 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - admin custom 
 - User authen 
 - Session, cookie 
+- static, media 
 
 # 14.Django restframework 
 - viết api (Đủ các loại api cả authen api dùng jwt ...
@@ -135,10 +144,54 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Gửi email thông báo đơn hàng 
 - Chức năng tìm kiếm 
 
-# 22 
-# 19. API server call server tích hợp cổng thanh toán điện tử  
+# 22 Làm project thực tế phần 4
+
+# 23 Làm project thực tế phần 5 
+
+# 24 Làm project thực tế phần 6
+ 
+
+# 25. API server call server tích hợp cổng thanh toán điện tử  
 - Ngân lượng 
 - Vnpay 
 
+# 26 Tích hợp đăng nhập bằng mạng xã hội 
+- đăng nhập bằng facebook 
+- Đăng nhập bằng google 
+
+# 27 deploy Nginx, docker , Cho web  vào chạy thật 
+- Cấu hình nginx 
+- Docker 
+- Cấu hình SSL https 
+
+# 28 Xây model machine learning đơn giản
+- build 
+- train 
+- test ...
+
+# 29 Thêm module machine learning vào website như thế nào 
+
+# 30  Cách lập công ty và gọi vốn  
+- Quy trình thiết kế project và tính toán tính khả thi 
+- Đi gọi vốn ở đâu, gặp ai gọi vốn, gọi vốn như thế nào.
+- Những vấn đề gặp phải khi đi lập công ty, ban đầu cần bao nhiêu tiền ...
+- Quản lý team gặp vấn đề gì ...
+- Vận hành công ty công nghệ 
+- tất tần tận về việc build công ty từ số 0 đến 20 người như mình đã build 
+- Nếu bạn đủ khả năng có thể join cùng mình luôn 
+- Quản lý team gặp vấn đề gì ...
+
+
+
+
+# HỌC PHÍ VÀ CÁCH THAM GIA KHOÁ HỌC
+
+- HỌC NHÓM 10 NGƯỜI (KHÔNG HƠN, 1 người mình vẫn dạy )
+- QUA NỀN TẢNG ZOOM hoặc livestream  kín 
+- Khoá học có giá:  **3 TRIỆU ĐỒNG**, bằng số là **3,000,000 VND **
+- Tuần học 2 buổi vào buổi tối, học đến bao h làm được product thì thôi =))) tối thiểu là 30 buổi nhé 
+- Mỗi buổi kéo dài 1.5 giờ đến 2 giờ (tối thiểu 1.5 giờ ) tuỳ hôm mình có thể dạy thêm 
+
+# ĐĂNG KÝ BẰNG CÁCH CHUYỂN KHOẢN CHO MÌNH NGAY  
 
 
