@@ -16,6 +16,7 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Cấu trúc một chương trình viết với Python 
 - Các từ khóa, biến và các kiểu dữ liệu. 
 - Cài đặt tool lập trình tạo project, biên dịch và chạy chương trình
+- Cách cài thư viện 
 
 # Các cấu trúc cơ bản trong Python
 
@@ -64,3 +65,32 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Kỹ thuật debug, kiểm soát ngoại lệ. The file object attributes. 
 - File & Directory Related Methods. 
 - Các kỹ thuật đọc ghi file hiệu quả với chương trình.
+
+# HTML, CSS Cơ bản thôi 
+- Các thẻ trong HTML
+- Logic dựng khung html 
+- Các thuộc tính  CSS cơ bản
+- Logic layout trang web 
+
+# Bootstrap, Jquery cái này cơ bản thôi 
+- Cách layout bằng bootstrap 
+- Cách dùng jquery cơ bản thôi 
+
+# Django part 1 
+- Tạo project 
+- Cấu trúc project cơ bản 
+- Model và queryset 
+- Command manage 
+- admin 
+
+# Django part 2 
+- View, class base view, function base view 
+- Render context 
+- Template 
+-  url 
+# Django part 3 
+- Form 
+- admin custom 
+- User authen 
+
+
