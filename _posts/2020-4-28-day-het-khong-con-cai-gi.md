@@ -9,7 +9,7 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 
 
 
-# Giới thiệu ngôn ngữ lập trình Python.
+# 1.Giới thiệu ngôn ngữ lập trình Python.
 
 - lịch sử và sự phát triển hiện tại 
 - Thiết lập môi trường và công cụ lập trình 
@@ -18,14 +18,14 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Cài đặt tool lập trình tạo project, biên dịch và chạy chương trình
 - Cách cài thư viện 
 
-# Các cấu trúc cơ bản trong Python
+# 2.Các cấu trúc cơ bản trong Python
 
 - Các phép toán số học, phép quan hệ, phép gán. 
 - Vào, ra dữ liệu trong chương trình. 
 - Cấu trúc rẽ nhánh Cấu trúc lặp: xác định và không xác định. 
 - Luyện tập các thuật toán sử dụng cấu trúc rẽ nhánh, cấu trúc lặp
 
-# Cấu trúc lặp (continute), Mảng và Strings
+# 3.Cấu trúc lặp (continute), Mảng và Strings
 
 - Cấu trúc lặp (tiếp tục) 
 - Mảng 1 chiều và mảng 2 chiều 
@@ -33,17 +33,17 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Numbers, List và Tuples 
 - Các bài tập lưu trữ với mảng và xử lý chuỗi, List
 
-# Làm việc với Numbers, Lists, Tuples và Dictionary
+# 4.Làm việc với Numbers, Lists, Tuples và Dictionary
 - Giới thiệu về Python Lists: creating, updating, delete, accessing value. 
 - Numbers, Tuples, Dictionary
 - Các bài tập làm việc với Numbers, Lists, Tuples và Dictinary
 
-# Funtions và Modules
+# 5.Funtions và Modules
 - Giới thiệu Funtions: Defining a Funtion, Calling a Funtion, Pass by reference vs value 
 - Giới thiệu Modules: Import, Namespaces và Scoping 
 - Hướng dẫn làm việc với Functions và Modules
 
-# Lập trình hướng đối tượng (Lớp (Class) và đối tượng (Object))
+# 6.Lập trình hướng đối tượng (Lớp (Class) và đối tượng (Object))
 
 - Giới thiệu về lập trình hướng đối tượng: Data Abstraction, Encapsulation, Modularity, Polymorphism, Inheritance. 
 - Tìm hiểu về Class và Object, Method Variables và Methods. 
@@ -51,7 +51,7 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Tính đa hình (Polymorphism) 
 - Thực hành tạo các Class và khai báo Object gọi phương thức ra xử lý
 
-# Lập trình hướng đối tượng (Tiếp)
+# 7.Lập trình hướng đối tượng (Tiếp)
 
 - Tính kế thừa, đa kế thừa trong Python. 
 - Phạm vi truy nhập: public, private. 
@@ -59,46 +59,46 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Trừu tượng (Abstraction) và giao diện (Interface). 
 - Cấu trúc lại chương trình sử dụng đặc tính kế thừa, đa hình, trừu tượng.
 
-# Làm việc với File (I/O)
+# 8.Làm việc với File (I/O)
 - Tổng quan về ngoại lệ. 
 - Check Exception và Uncheck Exception. Throwing Exception. 
 - Kỹ thuật debug, kiểm soát ngoại lệ. The file object attributes. 
 - File & Directory Related Methods. 
 - Các kỹ thuật đọc ghi file hiệu quả với chương trình.
 
-# HTML, CSS Cơ bản thôi 
+# 9.HTML, CSS Cơ bản thôi 
 - Các thẻ trong HTML
 - Logic dựng khung html 
 - Các thuộc tính  CSS cơ bản
 - Logic layout trang web 
 
-# Bootstrap, Jquery cái này cơ bản thôi 
+# 10.Bootstrap, Jquery cái này cơ bản thôi 
 - Cách layout bằng bootstrap 
 - Cách dùng jquery cơ bản thôi 
 
-# Django part 1 
+# 11.Django part 1 
 - Tạo project 
 - Cấu trúc project cơ bản 
 - Model và queryset 
 - Command manage 
 - admin 
 
-# Django part 2 
+# 12.Django part 2 
 - View, class base view, function base view 
 - Render context 
 - Template 
 -  url 
-# Django part 3 
+# 13.Django part 3 
 - Form 
 - admin custom 
 - User authen 
 - Session, cookie 
 
-# Django restframework 
+# 14.Django restframework 
 - viết api (Đủ các loại api cả authen api dùng jwt ...
 - test api với postman 
 
-# Docker - Docker compose 
+# 15.Docker - Docker compose 
 
 - Build docker compose 
 - Build django với docker 
@@ -106,17 +106,39 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - setup nginx 
 - Postgresql 
 
-# Database 
+# 16.Database 
 - Migrate db
 - Backup db 
 - restore db 
 - ....nhiều cái khác với db ...
 
-# Redis cache và task bất đồng bộ 
+# 17.Redis cache và task bất đồng bộ 
 - redis 
 - crontab 
 - process bất đồng bộ để làm những việc cần delay 
 - Các debug và logging 
+
+# 18 Github cơ bản 
+- Luyện github để làm việc nhóm  
+
+# 19. Làm project thực tế phần 1
+- Thiết kế hệ thống 
+
+# 20. Làm project thực tế phần 2 
+- Chức năng đăng nhập, đăng ký, gửi email 
+- Trang chủ 
+- Trang xem chi tiết
+- Trang xem danh sách 
+
+# 21 Làm project thực tế phần 3 
+- Chức năng đặt hàng, giỏ  hàng 
+- Gửi email thông báo đơn hàng 
+- Chức năng tìm kiếm 
+
+# 22 
+# 19. API server call server tích hợp cổng thanh toán điện tử  
+- Ngân lượng 
+- Vnpay 
 
 
 
