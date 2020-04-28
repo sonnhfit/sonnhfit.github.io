@@ -92,5 +92,8 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Form 
 - admin custom 
 - User authen 
+- Session, cookie 
 
+# Django restframework 
+- viết api (Đủ các loại api cả authen api dùng jwt ...)
 
