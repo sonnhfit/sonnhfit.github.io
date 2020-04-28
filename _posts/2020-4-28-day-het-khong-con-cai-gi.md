@@ -95,5 +95,19 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Session, cookie 
 
 # Django restframework 
-- viết api (Đủ các loại api cả authen api dùng jwt ...)
+- viết api (Đủ các loại api cả authen api dùng jwt ...
+
+# Docker - Docker compose 
+
+- Build docker compose 
+- Build django với docker 
+- setup redis 
+- setup nginx 
+- Postgresql 
+
+# Database 
+- Migrate db
+- Backup db 
+- restore db 
+- ....nhiều cái khác với db ...
 
