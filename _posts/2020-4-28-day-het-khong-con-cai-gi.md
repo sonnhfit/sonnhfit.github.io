@@ -96,6 +96,7 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 
 # Django restframework 
 - viết api (Đủ các loại api cả authen api dùng jwt ...
+- test api với postman 
 
 # Docker - Docker compose 
 
@@ -110,4 +111,12 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Backup db 
 - restore db 
 - ....nhiều cái khác với db ...
+
+# Redis cache và task bất đồng bộ 
+- redis 
+- crontab 
+- process bất đồng bộ để làm những việc cần delay 
+- Các debug và logging 
+
+
 
