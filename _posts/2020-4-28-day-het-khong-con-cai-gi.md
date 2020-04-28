@@ -50,4 +50,10 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Tính đa hình (Polymorphism) 
 - Thực hành tạo các Class và khai báo Object gọi phương thức ra xử lý
 
+# Lập trình hướng đối tượng (Tiếp)
 
+Tính kế thừa, đa kế thừa trong Python. 
+Phạm vi truy nhập: public, private. 
+Tính đa hình (Polymorphism). 
+Trừu tượng (Abstraction) và giao diện (Interface). 
+Cấu trúc lại chương trình sử dụng đặc tính kế thừa, đa hình, trừu tượng.
