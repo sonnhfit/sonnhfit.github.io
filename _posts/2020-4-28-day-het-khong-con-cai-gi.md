@@ -14,9 +14,9 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - Được mình chia sẻ 1 số khoá học online mà mình xây ví dụ như khoá python cơ bản và machine learning để học thêm 
 - Mình mất rất nhiều thời gian để tích luỹ và tìm hiểu, mình chia sẻ lại hết trong 1 khoá học thôi 
 - Kinh nghiệm lập công ty, startup từ con số 0 chia sẻ những điều nhỏ nhất 
+- Khi học mình có thể sẽ chỉ thêm cách làm tool để tự động hoá 1 số công việc ví dụ như (youtube, facebook, google)
 
-
-
+## Nội dung
 # 1.Giới thiệu ngôn ngữ lập trình Python.
 
 - lịch sử và sự phát triển hiện tại 
@@ -189,10 +189,10 @@ Mình có thời gian rảnh vào buổi tối nên mình mở 1 khoá học l�
 - HỌC NHÓM 10 NGƯỜI (KHÔNG HƠN, 1 người mình vẫn dạy )
 - QUA NỀN TẢNG ZOOM hoặc livestream  kín 
 - Khoá học có giá:  **3 TRIỆU ĐỒNG**, bằng số là **3,000,000 VND **
-- Tuần học 2 buổi vào buổi tối, học đến bao h làm được product thì thôi =))) tối thiểu là 30 buổi nhé 
+- Tuần học 2 buổi vào buổi tối, học đến bao h làm được product thì thôi =)))
 - Mỗi buổi kéo dài 1.5 giờ đến 2 giờ (tối thiểu 1.5 giờ ) tuỳ hôm mình có thể dạy thêm 
 
-# ĐĂNG KÝ BẰNG CÁCH CHUYỂN KHOẢN CHO MÌNH NGAY (khoá học 5/5/2020 bắt đầu)
+# ĐĂNG KÝ BẰNG CÁCH CHUYỂN KHOẢN CHO MÌNH NGAY 
 Nhớ nhắn tin cho mình  số điện thoại của bạn và email qua: **0818000098** số  điện thoại  mình  
 - Ngân hàng VIETTINBANK : **108002685772**
 HOTEN: **NGUYEN HUU SON**
