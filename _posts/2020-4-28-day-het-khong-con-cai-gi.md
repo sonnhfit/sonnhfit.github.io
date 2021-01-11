@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Chia sẻ hết những gì mình biết
+title: Khoá học lập trình web với python 
 ---
 
 Chào các bạn mình là Sơn hiện tại mình đang là đồng sáng lập và CTO của 1 công ty công nghệ tên là VNROBOT website: vnrobot.vn 
