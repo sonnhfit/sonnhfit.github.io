@@ -4,9 +4,11 @@ title: Giải thuật di truyền và ứng dụng với python
 mathjax: true
 ---
 
+
 Chào các bạn mình là **Sơn Nguyễn** ở trong bài viết này mình sẽ hướng dẫn các bạn hiểu cũng như xây dựng một chương trình đơn giản với giải thuật di truyền. Để các bạn có thể ứng dụng giải thuật di truyền vào những bài toán cụ thể của các bạn. Trong các lĩnh vực khác của khoa học máy tính.
 
-## Mục lục
+
+### Mục lục
 
 - Giới thiệu ngắn gọn về thuật toán di truyền
 - Mục tiêu các vấn đề cần giải quyết
@@ -17,13 +19,13 @@ Chào các bạn mình là **Sơn Nguyễn** ở trong bài viết này mình s�
 - Đoán mật khẩu
 
 
-## Giới thiệu ngắn gọn về thuật toán di truyền
+### Giới thiệu ngắn gọn về thuật toán di truyền
 Thuật toán di truyền là một trong những công cụ chúng ta có thể sử dụng để áp dụng cho các thuật toán học máy cho các bài toán tìm kiếm, tối ưu, và để giải quyết các vấn đề có hàng tỷ giải pháp có thể giải. Ý tưởng chính bắt nguồn từ sinh học để trả lời cho các vấn đề có không gian tìm kiếm lớn bằng cách liên tục tạo ra các giải pháp và đánh giá độ **tốt** của các giải pháp phù hợp với kết quả mong muốn, và tinh chỉnh các giải pháp tốt nhất.
 
 Khi giải quyết vấn đề bằng thuật toán di truyền, thay vì yêu cầu một giải pháp cụ thể, bạn cung cấp các đặc điểm mà giải pháp **phải có** để giải pháp đó được chấp nhận. Ví dụ khi bạn muốn đổ đầy một chiếc xe tải đang di chuyển bạn cung cấp một bộ quy tắc như: đặt những thứ lớn lên trước, phân bổ cân bằng trọng lượng của xe. đặt những thứ nhẹ lên trên nhưng không được lỏng lẻo, lồng những thứ có hình dạng kỳ lạ để chúng không di chuyển xung quanh.
 
 
-## Mục tiêu các vấn đề cần giải quyết
+### Mục tiêu các vấn đề cần giải quyết
 Hãy tưởng tượng bạn có 10 cơ hội để đoán một số trong khoảng từ 1 đến 1000 và khi bạn đoán 1 số bạn sẽ nhận được phản hồi của máy tính hoặc người quản trò là **đúng** hoặc **sai**. Bạn có thể đoán số chính xác ? Khi mà chỉ có phản hồi là **Đúng** hoặc **sai** bạn không có cách nào để cải thiện dự đoán của bạn. Tất nhiên bạn không thể sử dụng giải thuật di truyền để giải quyết những bài toán như vậy. Một khía cạnh cơ bản của giải thuật di truyền là  là chúng ta phải cung cấp thông tin phán đoán đó có tốt hay không. Sự phản hồi ở đây được gọi là **thể lực** (fitness).
 
 
@@ -33,7 +35,7 @@ Bây giờ hãy tưởng tượng nhân kích thước của vấn đề này đ
 
 Các thuật toán di truyền và lập trình di truyền rất tốt trong việc tìm giải pháp cho các vấn đề rất lớn. Họ làm điều đó bằng cách lấy hàng triệu mẫu từ không gian tìm kiếm, thực hiện các thay đổi nhỏ, có thể kết hợp lại các phần của các giải pháp tốt nhất, so sánh kết quả **fitness** với kết quả tốt nhất hiện tại. Quá trình này lặp lại cho đến khi một điều kiện dừng sảy ra: giải pháp đã biết được tìm thấy, một giải pháp đáp ứng tất cả các yêu cầu được tìm thấy, một số gen quy định đã được sinh ra, thời gian ...
 
-## Dự án đầu tiên
+### Dự án đầu tiên
 
 Hãy tưởng tượng bạn nhận được một yêu cầu đoán mật khẩu gồm 3 chữ cái. Bạn mong muốn nhận được sự phản hồi là gì về kết quả mà bạn đã đoán? Ví dụ: Nếu mật khẩu là ***'aaa'*** và bạn đoán là **'abc'** giá trị $$ fitness $$ nên là gì ? Sẽ phải có một phản hồi đơn giản như: có bao nhiêu chữ cái trong dự đoán của bạn đúng. ví dụ: **'bab'** có một chữ cái đúng, **'zap'** cũng đúng nhưng có một giá trị $$ fitness $$ kém hơn so với giá trị $$ fitness $$ của **aaa**  giá trị $$ fitness $$ ở đây có thể là khoảng cách giữa 2 chuỗi khi sắp sếp theo bảng chữ cái, chữ **abc** gần với **aaa** hơn so với **zap** đây là một vấn đề mà các bạn cần quan tâm khi bắt đầu xây dựng giải pháp cho vấn đề của bạn. Giải thuật di truyền rất tốt trong việc tìm giải pháp tốt cho các vấn đề với không gian tìm kiếm lớn vì chúng có thể nhanh chóng tìm thấy các phần dự đoán cải thiện giá trị $$ fitness $$ để có giải pháp tốt hơn.
 
@@ -41,13 +43,13 @@ Trong dự đoán trên giá trị $$ fitness $$ trả về số lượng chữ 
 
 Chúng ta sẽ xem xét thêm về dự án dò mật khẩu trong phần này và tiếp tục khám phá nhiều dự án khác nhau để tìm hiểu các cách khác nhau để giải quyết vấn đề với giải thuật di truyền.
 
-## Lập trình di truyền với python
+### Lập trình di truyền với python
 
 Lý do tôi chọn python vì nó đơn giản và dễ học nếu bạn từng học lập trình trước đó hay chưa học thì nó cũng sẽ dễ dàng với bạn vì python là một ngôn ngữ trong sáng. Gần với ngôn ngữ tự nhiên.
 
-## Hello world
+### Hello world
 
-### Đoán số của tôi
+#### Đoán số của tôi
 
 Hãy bắt đầu bằng cách học một chút về các thuật toán di truyền. Chúng ta có một trò chơi đơn giản dành cho 2 người, trong đó một người chọn một số bí mật từ 1 đến 10 và người còn lại phải đoán:
 
@@ -102,7 +104,7 @@ Một thuật toán di truyền không biết cái nào là xấu hơn cái nào
 
 Các thuật toán di truyền thăm dò ngẫu nhiên không gian bài toán kết hợp với các quá trình tiến hóa như đột biệt, lai chéo, để cải thiện dự đoán. Nhưng bởi vì thuật toán không sử dụng kinh nghiệm, phương pháp loại trừ, ... nên thuật toán sẽ thử những thứ con người sẽ không bao giờ nghĩ để thử. Do đó chúng ta có thể cải tiến thuật toán và giới hạn không gian bài toán để có những kết quả tiềm năng.
 
-### Đoán mật khẩu
+#### Đoán mật khẩu
 
 Bây giờ chúng ta sẽ áp dụng những thứ ở trên như thế nào cho việc đoán mật khẩu. Bắt đầu với một chuỗi chữ cái được tạo ngẫu nhiên sau đó thay đổi một chữ cái ngẫu nhiên tại một thời điểm cho đến khi tìm được chuỗi chữ cái là ```hello world!``` về mặt lý thuyết và thủ công không có tý gì gọi là thông minh ai cũng có thể nghĩ ra cái giải thuật này thì sẽ như sau:
 
@@ -121,9 +123,9 @@ Nếu bạn thử viết điều này với ngôn ngữ lập trình yêu thích
 
 Một giải pháp là giúp nó đoán đúng bằng cách cho nó biết có bao nhiêu chữ cái trong số đoán là đúng vị trí. Ví dụ **"World!Hello?"** sẽ nhận được kết quả là 2 vì chỉ có 2 chữ cái đúng vị trí so với từ **"Hello World!"** (chữ l) 2 ở đây được gọi là giá trị $$ fitness $$.
 
-### Chương trình đầu tiên
+#### Chương trình đầu tiên
 
-#### Gen
+##### Gen
 
 Để bắt đầu thuật toán di truyền cần một bộ gen sử dụng để xây dựng dự đoán. Đối với dự án này sẽ là một bộ chung chữ cái. Nó cũng cần một mật khẩu đích để đoán.
 
@@ -132,7 +134,7 @@ geneSet = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!."
 target = "Hello World!"
 ```
 
-#### Tạo một dự đoán
+##### Tạo một dự đoán
 
 Tiếp theo thuật toán cần tạo ra một chuỗi ngẫu nhiên từ bộ gen
 ```python
@@ -146,7 +148,7 @@ def generate_parent(length):
 
 ```
 
-#### Fitness
+##### Fitness
 
 giá trị $$ fitness $$ mà thuật toán di truyền cung cấp là phản hồi duy nhất. Trong phần này giá trị $$ fitness $$ là tổng số chữ cái trùng khớp với mật khẩu.
 
@@ -160,7 +162,7 @@ def get_fitness(guess):
 
 hàm trên sẽ trả về số ký tự ở đúng vị trí của dự đoán.
 
-#### Đột biến
+##### Đột biến
 
 Chúng ta có hàm đột biến gen này để giải quyết vấn đề nếu một Gen mới (newGen) được chọn ngẫu nhiên trùng với gen mà chúng ta đã xem xét.
 Điều này sẽ giúp chúng ta giảm thiểu việc tính toán không cần thiết. 
@@ -178,7 +180,7 @@ def mutate(parent):
 
 Việc triển khai này chuyển đổi mỗi chuỗi parent thành một mảng với hàm **list(parent)**, sau đó thay thế 1 chữ cái trong mảng bằng cách chọn ngẫu nhiên từ geneSet.
 
-#### Hiển thị
+##### Hiển thị
 
 Tiếp theo, điều quan trọng là phải theo dõi những gì đang xả ra.
 
@@ -191,7 +193,7 @@ def display(guess):
 
 ```
 
-#### Hàm main
+##### Hàm main
 
 Hàm main bắt đầu bằng việc khởi tạo **bestParent** một cách ngẫu nhiên là hiển thị nó.
 
